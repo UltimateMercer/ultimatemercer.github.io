@@ -1,0 +1,41 @@
+{
+  "title": "Ultimate Series - Nº 002 - Homem de Ferro",
+  "description": null,
+  "cover": "https://i.imgur.com/UphsYlG.jpg",
+  "imageHeader": "https://i.imgur.com/UphsYlG.jpg",
+  "date": "2019-05-25T22:30:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Design",
+  "tags": [
+    "Ultimate Series",
+    "Projeto pessoal"
+  ],
+  "layout": "fullpage-layout",
+  "filter": "filter-burn",
+  "typography": null,
+  "draft": true,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": null,
+  "body": {
+    "raw": "\n## Sobre\n\nEdição de imagens.\n\nBehance Link: https://www.behance.net/gallery/126421109/Ultimate-Series-N-002-Homem-de-Ferro\n\n<figure>\n<img src=\"https://i.imgur.com/UphsYlG.jpg\" className=\"max-w-none mx-auto block\"/>\n</figure>\n",
+    "code": "var Component=(()=>{var p=Object.create;var l=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var a in e)l(t,a,{get:e[a],enumerable:!0})},o=(t,e,a,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of d(e))!f.call(t,r)&&r!==a&&l(t,r,{get:()=>e[r],enumerable:!(i=u(e,r))||i.enumerable});return t};var j=(t,e,a)=>(a=t!=null?p(g(t)):{},o(e||!t||!t.__esModule?l(a,\"default\",{value:t,enumerable:!0}):a,t)),y=t=>o(l({},\"__esModule\",{value:!0}),t);var c=x((N,s)=>{s.exports=_jsx_runtime});var U={};b(U,{default:()=>h,frontmatter:()=>w});var n=j(c()),w={title:\"Ultimate Series - N\\xBA 002 - Homem de Ferro\",description:null,imageHeader:\"https://i.imgur.com/UphsYlG.jpg\",cover:\"https://i.imgur.com/UphsYlG.jpg\",date:\"2019-05-25 19:30\",modifiedDate:null,channel:\"Arts\",category:\"Design\",tags:[\"Ultimate Series\",\"Projeto pessoal\"],layout:\"fullpage-layout\",filter:\"filter-burn\",typography:null,draft:!0,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:null};function m(t){let e={a:\"a\",h2:\"h2\",p:\"p\",span:\"span\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.h2,{id:\"sobre\",children:[(0,n.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#sobre\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Sobre\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Edi\\xE7\\xE3o de imagens.\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"Behance Link: \",(0,n.jsx)(e.a,{href:\"https://www.behance.net/gallery/126421109/Ultimate-Series-N-002-Homem-de-Ferro\",children:\"https://www.behance.net/gallery/126421109/Ultimate-Series-N-002-Homem-de-Ferro\"})]}),`\n`,(0,n.jsx)(\"figure\",{children:(0,n.jsx)(\"img\",{src:\"https://i.imgur.com/UphsYlG.jpg\",className:\"max-w-none mx-auto block\"})})]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return y(U);})();\n;return Component;"
+  },
+  "_id": "projects/ultimate-series-002.md",
+  "_raw": {
+    "sourceFilePath": "projects/ultimate-series-002.md",
+    "sourceFileName": "ultimate-series-002.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/ultimate-series-002"
+  },
+  "type": "Article",
+  "slug": "/projects/ultimate-series-002"
+}

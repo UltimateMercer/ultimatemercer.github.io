@@ -1,0 +1,41 @@
+{
+  "title": "Ultimate Series - Nº 014",
+  "description": null,
+  "cover": "https://i.imgur.com/dzFLCgp.jpg",
+  "imageHeader": "https://i.imgur.com/dzFLCgp.jpg",
+  "date": "2019-11-11T21:30:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Design",
+  "tags": [
+    "Ultimate Series",
+    "Projeto pessoal"
+  ],
+  "layout": "portrait-layout",
+  "filter": "filter-icecream-plus",
+  "typography": null,
+  "draft": true,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": null,
+  "body": {
+    "raw": "\n## Sobre\n\nEdição de imagens.\n\nhttps://www.behance.net/gallery/126637937/Ultimate-Series-N-014\n\n<figure>\n<img src=\"https://i.imgur.com/dzFLCgp.jpg\" className=\"max-w-none mx-auto block\"/>\n</figure>\n",
+    "code": "var Component=(()=>{var h=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)i(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of d(e))!f.call(t,r)&&r!==n&&i(t,r,{get:()=>e[r],enumerable:!(l=u(e,r))||l.enumerable});return t};var y=(t,e,n)=>(n=t!=null?h(g(t)):{},s(e||!t||!t.__esModule?i(n,\"default\",{value:t,enumerable:!0}):n,t)),b=t=>s(i({},\"__esModule\",{value:!0}),t);var c=x((N,o)=>{o.exports=_jsx_runtime});var _={};j(_,{default:()=>p,frontmatter:()=>w});var a=y(c()),w={title:\"Ultimate Series - N\\xBA 014\",description:null,imageHeader:\"https://i.imgur.com/dzFLCgp.jpg\",cover:\"https://i.imgur.com/dzFLCgp.jpg\",date:\"2019-11-11 18:30\",modifiedDate:null,channel:\"Arts\",category:\"Design\",tags:[\"Ultimate Series\",\"Projeto pessoal\"],layout:\"portrait-layout\",filter:\"filter-icecream-plus\",typography:null,draft:!0,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:null};function m(t){let e={a:\"a\",h2:\"h2\",p:\"p\",span:\"span\",...t.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsxs)(e.h2,{id:\"sobre\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#sobre\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"Sobre\"]}),`\n`,(0,a.jsx)(e.p,{children:\"Edi\\xE7\\xE3o de imagens.\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.a,{href:\"https://www.behance.net/gallery/126637937/Ultimate-Series-N-014\",children:\"https://www.behance.net/gallery/126637937/Ultimate-Series-N-014\"})}),`\n`,(0,a.jsx)(\"figure\",{children:(0,a.jsx)(\"img\",{src:\"https://i.imgur.com/dzFLCgp.jpg\",className:\"max-w-none mx-auto block\"})})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(m,{...t})}):m(t)}return b(_);})();\n;return Component;"
+  },
+  "_id": "projects/ultimate-series-014.md",
+  "_raw": {
+    "sourceFilePath": "projects/ultimate-series-014.md",
+    "sourceFileName": "ultimate-series-014.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/ultimate-series-014"
+  },
+  "type": "Article",
+  "slug": "/projects/ultimate-series-014"
+}

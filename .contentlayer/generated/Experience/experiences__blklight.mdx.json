@@ -1,0 +1,35 @@
+{
+  "company": "Blklight",
+  "role": "Desenvolvedor Fullstack",
+  "description": "",
+  "start": "2019-02-01 00:00",
+  "end": "",
+  "image": "",
+  "tags": [
+    "React",
+    "Next.JS",
+    "Vue.JS",
+    "Nuxt",
+    "Node.js",
+    "Javascript",
+    "Typescript",
+    "Express",
+    "NestJS",
+    "SCSS",
+    "GitHub",
+    "Git"
+  ],
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "experiences/blklight.mdx",
+  "_raw": {
+    "sourceFilePath": "experiences/blklight.mdx",
+    "sourceFileName": "blklight.mdx",
+    "sourceFileDir": "experiences",
+    "contentType": "mdx",
+    "flattenedPath": "experiences/blklight"
+  },
+  "type": "Experience"
+}

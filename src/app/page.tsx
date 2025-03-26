@@ -1,95 +1,94 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Hero } from "@/components/hero";
+import { AboutMe } from "@/components/about-me";
+import { getAcademics, getExperiences, getDocuments } from "@/services/index";
+import { MyExperiences } from "@/components/my-experiences";
+import { skills } from "@/services/skills";
+import { Badge } from "@/components/ui/badge";
+import { Separator } from "@/components/ui/separator";
+import { MyEducations } from "@/components/my-educations";
+import { MyProjects } from "@/components/my-projects";
+import { ModeToggle } from "@/components/mode-toggle";
+import { VelocityScroll } from "@/components/magicui/scroll-based-velocity";
+import { TypingAnimation } from "@/components/magicui/typing-animation";
 
-export default function Home() {
+export default async function Home() {
+  const docs = await getDocuments();
+  console.log(docs);
+
+  const experiences = getExperiences;
+  const educations = getAcademics;
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+    <>
+      <div className="max-w-4xl mx-auto py-8 px-4">
+        <div className="container mx-auto mb-6">
+          <Hero />
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        {/* <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
+          <VelocityScroll>Sobre mim</VelocityScroll>
+
+          <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
+          <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background"></div>
+        </div> */}
+        <div className="container mx-auto mb-6">
+          <AboutMe />
+        </div>
+        <div className="container mx-auto mb-6">
+          <TypingAnimation className="text-3xl font-bold leading-tight tracking-wide mb-3">
+            Experiências e habilidades
+          </TypingAnimation>
+          {experiences.map((experience, index) => (
+            <MyExperiences
+              experience={experience}
+              key={`${experience.company}-${index}`}
+            />
+          ))}
+          <Separator className="my-4" />{" "}
+          {/* <h2 className="text-3xl font-bold leading-tight tracking-wide mb-3">
+            Habilidades
+          </h2>
+          <TypingAnimation */}
+          <div className="flex flex-wrap gap-1">
+            {skills.map((skill, index) => (
+              <Badge
+                key={`${skill}-${index}`}
+                variant="outline"
+                className="mb-1"
+              >
+                {skill}
+              </Badge>
+            ))}
+          </div>
+        </div>
+        <div className="container mx-auto mb-6">
+          <TypingAnimation className="text-3xl font-bold leading-tight tracking-wide mb-3">
+            Formações
+          </TypingAnimation>
+          {educations.map((education, index) => (
+            <MyEducations
+              education={education}
+              key={`${education.institute}-${index}`}
+              withImage
+            />
+          ))}
+        </div>
+        <div className="container mx-auto">
+          <TypingAnimation className="text-3xl font-bold leading-tight tracking-wide mb-3">
+            Meus projetos
+          </TypingAnimation>
+          <MyProjects projects={docs} />
+        </div>
+      </div>
+      {/* <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
+        <VelocityScroll>Sobre mim</VelocityScroll>
+
+        <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
+        <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background"></div>
+      </div> */}
+    </>
   );
 }

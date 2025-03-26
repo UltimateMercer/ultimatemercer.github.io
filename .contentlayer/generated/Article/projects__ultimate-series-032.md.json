@@ -1,0 +1,41 @@
+{
+  "title": "Ultimate Series - Nº 032 - Flash",
+  "description": null,
+  "cover": "https://i.imgur.com/UHbiA4m.jpg",
+  "imageHeader": "https://i.imgur.com/UHbiA4m.jpg",
+  "date": "2021-04-04T01:30:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Design",
+  "tags": [
+    "Ultimate Series",
+    "Projeto pessoal"
+  ],
+  "layout": "portrait-layout",
+  "filter": "filter-dark-red",
+  "typography": null,
+  "draft": false,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": null,
+  "body": {
+    "raw": "\n## Sobre\n\nArte construída após assistir a _Zack Snyder's Justice League_, após um breve momento de criatividade XD.\n\nhttps://www.behance.net/gallery/127065475/Ultimate-Series-N-032-Flash\n\n<figure>\n<img src=\"https://i.imgur.com/UHbiA4m.jpg\" className=\"max-w-full mx-auto block\"/>\n</figure>\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var r in e)i(a,r,{get:e[r],enumerable:!0})},l=(a,e,r,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of p(e))!f.call(a,n)&&n!==r&&i(a,n,{get:()=>e[n],enumerable:!(s=d(e,n))||s.enumerable});return a};var y=(a,e,r)=>(r=a!=null?u(g(a)):{},l(e||!a||!a.__esModule?i(r,\"default\",{value:a,enumerable:!0}):r,a)),j=a=>l(i({},\"__esModule\",{value:!0}),a);var c=b((_,o)=>{o.exports=_jsx_runtime});var S={};x(S,{default:()=>h,frontmatter:()=>w});var t=y(c()),w={title:\"Ultimate Series - N\\xBA 032 - Flash\",description:null,imageHeader:\"https://i.imgur.com/UHbiA4m.jpg\",cover:\"https://i.imgur.com/UHbiA4m.jpg\",date:\"2021-04-03 22:30\",modifiedDate:null,channel:\"Arts\",category:\"Design\",tags:[\"Ultimate Series\",\"Projeto pessoal\"],layout:\"portrait-layout\",filter:\"filter-dark-red\",typography:null,draft:!1,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:null};function m(a){let e={a:\"a\",em:\"em\",h2:\"h2\",p:\"p\",span:\"span\",...a.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.h2,{id:\"sobre\",children:[(0,t.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#sobre\",children:(0,t.jsx)(e.span,{className:\"icon icon-link\"})}),\"Sobre\"]}),`\n`,(0,t.jsxs)(e.p,{children:[\"Arte constru\\xEDda ap\\xF3s assistir a \",(0,t.jsx)(e.em,{children:\"Zack Snyder's Justice League\"}),\", ap\\xF3s um breve momento de criatividade XD.\"]}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.a,{href:\"https://www.behance.net/gallery/127065475/Ultimate-Series-N-032-Flash\",children:\"https://www.behance.net/gallery/127065475/Ultimate-Series-N-032-Flash\"})}),`\n`,(0,t.jsx)(\"figure\",{children:(0,t.jsx)(\"img\",{src:\"https://i.imgur.com/UHbiA4m.jpg\",className:\"max-w-full mx-auto block\"})})]})}function h(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(m,{...a})}):m(a)}return j(S);})();\n;return Component;"
+  },
+  "_id": "projects/ultimate-series-032.md",
+  "_raw": {
+    "sourceFilePath": "projects/ultimate-series-032.md",
+    "sourceFileName": "ultimate-series-032.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/ultimate-series-032"
+  },
+  "type": "Article",
+  "slug": "/projects/ultimate-series-032"
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Ultimate Series - Nº 003 - Megan Rapinoe",
+  "description": null,
+  "cover": "https://i.imgur.com/nPBrSJ7.jpg",
+  "imageHeader": "https://i.imgur.com/nPBrSJ7.jpg",
+  "date": "2019-07-11T22:30:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Design",
+  "tags": [
+    "Ultimate Series",
+    "Projeto pessoal"
+  ],
+  "layout": "landscape-layout",
+  "filter": "filter-icecream-plus",
+  "typography": null,
+  "draft": true,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": null,
+  "body": {
+    "raw": "\n## Sobre\n\nBehance Link:\n\nhttps://www.behance.net/gallery/126421743/Ultimate-Series-N-003-Megan-Rapinoe\n\n<figure>\n<img src=\"https://i.imgur.com/nPBrSJ7.jpg\" className=\"max-w-none mx-auto block\"/>\n</figure>\n",
+    "code": "var Component=(()=>{var h=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),j=(n,e)=>{for(var t in e)i(n,t,{get:e[t],enumerable:!0})},s=(n,e,t,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of g(e))!f.call(n,r)&&r!==t&&i(n,r,{get:()=>e[r],enumerable:!(l=u(e,r))||l.enumerable});return n};var y=(n,e,t)=>(t=n!=null?h(d(n)):{},s(e||!n||!n.__esModule?i(t,\"default\",{value:n,enumerable:!0}):t,n)),S=n=>s(i({},\"__esModule\",{value:!0}),n);var c=x((M,o)=>{o.exports=_jsx_runtime});var w={};j(w,{default:()=>p,frontmatter:()=>b});var a=y(c()),b={title:\"Ultimate Series - N\\xBA 003 - Megan Rapinoe\",description:null,imageHeader:\"https://i.imgur.com/nPBrSJ7.jpg\",cover:\"https://i.imgur.com/nPBrSJ7.jpg\",date:\"2019-07-11 19:30\",modifiedDate:null,channel:\"Arts\",category:\"Design\",tags:[\"Ultimate Series\",\"Projeto pessoal\"],layout:\"landscape-layout\",filter:\"filter-icecream-plus\",typography:null,draft:!0,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:null};function m(n){let e={a:\"a\",h2:\"h2\",p:\"p\",span:\"span\",...n.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsxs)(e.h2,{id:\"sobre\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#sobre\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"Sobre\"]}),`\n`,(0,a.jsx)(e.p,{children:\"Behance Link:\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.a,{href:\"https://www.behance.net/gallery/126421743/Ultimate-Series-N-003-Megan-Rapinoe\",children:\"https://www.behance.net/gallery/126421743/Ultimate-Series-N-003-Megan-Rapinoe\"})}),`\n`,(0,a.jsx)(\"figure\",{children:(0,a.jsx)(\"img\",{src:\"https://i.imgur.com/nPBrSJ7.jpg\",className:\"max-w-none mx-auto block\"})})]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,{...n,children:(0,a.jsx)(m,{...n})}):m(n)}return S(w);})();\n;return Component;"
+  },
+  "_id": "projects/ultimate-series-003.md",
+  "_raw": {
+    "sourceFilePath": "projects/ultimate-series-003.md",
+    "sourceFileName": "ultimate-series-003.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/ultimate-series-003"
+  },
+  "type": "Article",
+  "slug": "/projects/ultimate-series-003"
+}

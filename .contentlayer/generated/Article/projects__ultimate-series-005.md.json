@@ -1,0 +1,45 @@
+{
+  "title": "Ultimate Series - Nº 005",
+  "description": null,
+  "cover": "https://i.imgur.com/Wp1mfLT.jpg",
+  "imageHeader": "https://i.imgur.com/Wp1mfLT.jpg",
+  "date": "2019-07-20T21:30:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Design",
+  "tags": [
+    "Ultimate Series",
+    "Projeto pessoal"
+  ],
+  "layout": "landscape-layout",
+  "filter": "filter-cyberpunk-ix",
+  "typography": null,
+  "draft": true,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": [
+    "https://i.imgur.com/Wp1mfLT.jpg",
+    "https://i.imgur.com/IEkCRqD.jpg",
+    "https://i.imgur.com/IyVv02T.jpg"
+  ],
+  "body": {
+    "raw": "\n## Sobre\n\nUma das primeiras imagens editadas utilizando-se desse estilo de visual que eu comecei a aplicar em diferentes imagens, além disso nesta época eu também gostava de fazer o uso de duotones, muito por causa daquelas imagens de capa das _playlists_ do spotify.\n\nBehance link:\n\nhttps://www.behance.net/gallery/126618507/Ultimate-Series-N-005\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var n in e)s(a,n,{get:e[n],enumerable:!0})},o=(a,e,n,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of h(e))!f.call(a,i)&&i!==n&&s(a,i,{get:()=>e[i],enumerable:!(r=u(e,i))||r.enumerable});return a};var x=(a,e,n)=>(n=a!=null?d(g(a)):{},o(e||!a||!a.__esModule?s(n,\"default\",{value:a,enumerable:!0}):n,a)),b=a=>o(s({},\"__esModule\",{value:!0}),a);var m=y((k,l)=>{l.exports=_jsx_runtime});var _={};j(_,{default:()=>p,frontmatter:()=>w});var t=x(m()),w={title:\"Ultimate Series - N\\xBA 005\",description:null,imageHeader:\"https://i.imgur.com/Wp1mfLT.jpg\",cover:\"https://i.imgur.com/Wp1mfLT.jpg\",date:\"2019-07-20 18:30\",modifiedDate:null,channel:\"Arts\",category:\"Design\",tags:[\"Ultimate Series\",\"Projeto pessoal\"],layout:\"landscape-layout\",filter:\"filter-cyberpunk-ix\",typography:null,draft:!0,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:[\"https://i.imgur.com/Wp1mfLT.jpg\",\"https://i.imgur.com/IEkCRqD.jpg\",\"https://i.imgur.com/IyVv02T.jpg\"]};function c(a){let e={a:\"a\",em:\"em\",h2:\"h2\",p:\"p\",span:\"span\",...a.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.h2,{id:\"sobre\",children:[(0,t.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#sobre\",children:(0,t.jsx)(e.span,{className:\"icon icon-link\"})}),\"Sobre\"]}),`\n`,(0,t.jsxs)(e.p,{children:[\"Uma das primeiras imagens editadas utilizando-se desse estilo de visual que eu comecei a aplicar em diferentes imagens, al\\xE9m disso nesta \\xE9poca eu tamb\\xE9m gostava de fazer o uso de duotones, muito por causa daquelas imagens de capa das \",(0,t.jsx)(e.em,{children:\"playlists\"}),\" do spotify.\"]}),`\n`,(0,t.jsx)(e.p,{children:\"Behance link:\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.a,{href:\"https://www.behance.net/gallery/126618507/Ultimate-Series-N-005\",children:\"https://www.behance.net/gallery/126618507/Ultimate-Series-N-005\"})})]})}function p(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(c,{...a})}):c(a)}return b(_);})();\n;return Component;"
+  },
+  "_id": "projects/ultimate-series-005.md",
+  "_raw": {
+    "sourceFilePath": "projects/ultimate-series-005.md",
+    "sourceFileName": "ultimate-series-005.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/ultimate-series-005"
+  },
+  "type": "Article",
+  "slug": "/projects/ultimate-series-005"
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Ultimate Series - Nº 030 - Supergirl",
+  "description": null,
+  "cover": "https://i.imgur.com/wy3r2rR.jpg",
+  "imageHeader": "https://i.imgur.com/wy3r2rR.jpg",
+  "date": "2021-04-02T00:45:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Design",
+  "tags": [
+    "Ultimate Series",
+    "Projeto pessoal"
+  ],
+  "layout": "landscape-layout",
+  "filter": "filter-blue-red-golden",
+  "typography": null,
+  "draft": true,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": [
+    "https://i.imgur.com/ereFZEm.jpg",
+    "https://i.imgur.com/wy3r2rR.jpg"
+  ],
+  "body": {
+    "raw": "\n## Sobre\n\nEdição de imagens.\n\nhttps://www.behance.net/gallery/127065409/Ultimate-Series-N-030-Supergirl\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var a in e)i(t,a,{get:e[a],enumerable:!0})},s=(t,e,a,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of g(e))!y.call(t,n)&&n!==a&&i(t,n,{get:()=>e[n],enumerable:!(l=h(e,n))||l.enumerable});return t};var w=(t,e,a)=>(a=t!=null?u(d(t)):{},s(e||!t||!t.__esModule?i(a,\"default\",{value:t,enumerable:!0}):a,t)),x=t=>s(i({},\"__esModule\",{value:!0}),t);var c=f((N,o)=>{o.exports=_jsx_runtime});var b={};j(b,{default:()=>m,frontmatter:()=>S});var r=w(c()),S={title:\"Ultimate Series - N\\xBA 030 - Supergirl\",description:null,imageHeader:\"https://i.imgur.com/wy3r2rR.jpg\",cover:\"https://i.imgur.com/wy3r2rR.jpg\",date:\"2021-04-01 21:45\",modifiedDate:null,channel:\"Arts\",category:\"Design\",tags:[\"Ultimate Series\",\"Projeto pessoal\"],layout:\"landscape-layout\",filter:\"filter-blue-red-golden\",typography:null,draft:!0,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:[\"https://i.imgur.com/ereFZEm.jpg\",\"https://i.imgur.com/wy3r2rR.jpg\"]};function p(t){let e={a:\"a\",h2:\"h2\",p:\"p\",span:\"span\",...t.components};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsxs)(e.h2,{id:\"sobre\",children:[(0,r.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#sobre\",children:(0,r.jsx)(e.span,{className:\"icon icon-link\"})}),\"Sobre\"]}),`\n`,(0,r.jsx)(e.p,{children:\"Edi\\xE7\\xE3o de imagens.\"}),`\n`,(0,r.jsx)(e.p,{children:(0,r.jsx)(e.a,{href:\"https://www.behance.net/gallery/127065409/Ultimate-Series-N-030-Supergirl\",children:\"https://www.behance.net/gallery/127065409/Ultimate-Series-N-030-Supergirl\"})})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(p,{...t})}):p(t)}return x(b);})();\n;return Component;"
+  },
+  "_id": "projects/ultimate-series-030.md",
+  "_raw": {
+    "sourceFilePath": "projects/ultimate-series-030.md",
+    "sourceFileName": "ultimate-series-030.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/ultimate-series-030"
+  },
+  "type": "Article",
+  "slug": "/projects/ultimate-series-030"
+}

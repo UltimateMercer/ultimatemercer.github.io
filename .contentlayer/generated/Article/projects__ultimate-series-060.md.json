@@ -1,0 +1,48 @@
+{
+  "title": "Ultimate Series - Nº 060",
+  "description": null,
+  "cover": "https://i.imgur.com/AvnIrfo.jpg",
+  "imageHeader": "https://i.imgur.com/AvnIrfo.jpg",
+  "date": "2021-09-19T21:00:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Design",
+  "tags": [
+    "Ultimate Series",
+    "Projeto pessoal"
+  ],
+  "layout": "landscape-layout",
+  "filter": "filter-cyberpunk-ix",
+  "typography": null,
+  "draft": true,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": [
+    "https://i.imgur.com/AvnIrfo.jpg",
+    "https://i.imgur.com/PAuiC4e.jpg",
+    "https://i.imgur.com/Zl0i1jq.jpg",
+    "https://i.imgur.com/lEnO1vJ.jpg",
+    "https://i.imgur.com/94ZVvGw.jpg",
+    "https://i.imgur.com/juTQd1M.jpg"
+  ],
+  "body": {
+    "raw": "\n## Sobre\n\nEdição de imagens.\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),x=(e,t)=>{for(var r in t)i(e,r,{get:t[r],enumerable:!0})},s=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of h(t))!j.call(e,a)&&a!==r&&i(e,a,{get:()=>t[a],enumerable:!(o=g(t,a))||o.enumerable});return e};var y=(e,t,r)=>(r=e!=null?u(d(e)):{},s(t||!e||!e.__esModule?i(r,\"default\",{value:e,enumerable:!0}):r,e)),v=e=>s(i({},\"__esModule\",{value:!0}),e);var c=f((C,l)=>{l.exports=_jsx_runtime});var b={};x(b,{default:()=>p,frontmatter:()=>_});var n=y(c()),_={title:\"Ultimate Series - N\\xBA 060\",description:null,imageHeader:\"https://i.imgur.com/AvnIrfo.jpg\",cover:\"https://i.imgur.com/AvnIrfo.jpg\",date:\"2021-09-19 18:00\",modifiedDate:null,channel:\"Arts\",category:\"Design\",tags:[\"Ultimate Series\",\"Projeto pessoal\"],layout:\"landscape-layout\",filter:\"filter-cyberpunk-ix\",typography:null,draft:!0,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:[\"https://i.imgur.com/AvnIrfo.jpg\",\"https://i.imgur.com/PAuiC4e.jpg\",\"https://i.imgur.com/Zl0i1jq.jpg\",\"https://i.imgur.com/lEnO1vJ.jpg\",\"https://i.imgur.com/94ZVvGw.jpg\",\"https://i.imgur.com/juTQd1M.jpg\"]};function m(e){let t={a:\"a\",h2:\"h2\",p:\"p\",span:\"span\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(t.h2,{id:\"sobre\",children:[(0,n.jsx)(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#sobre\",children:(0,n.jsx)(t.span,{className:\"icon icon-link\"})}),\"Sobre\"]}),`\n`,(0,n.jsx)(t.p,{children:\"Edi\\xE7\\xE3o de imagens.\"})]})}function p(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(m,{...e})}):m(e)}return v(b);})();\n;return Component;"
+  },
+  "_id": "projects/ultimate-series-060.md",
+  "_raw": {
+    "sourceFilePath": "projects/ultimate-series-060.md",
+    "sourceFileName": "ultimate-series-060.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/ultimate-series-060"
+  },
+  "type": "Article",
+  "slug": "/projects/ultimate-series-060"
+}

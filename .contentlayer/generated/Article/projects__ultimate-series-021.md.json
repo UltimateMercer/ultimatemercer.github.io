@@ -1,0 +1,41 @@
+{
+  "title": "Ultimate Series - Nº 021 - Britney Spears",
+  "description": null,
+  "cover": "https://i.imgur.com/wp7N4XE.jpg",
+  "imageHeader": "https://i.imgur.com/wp7N4XE.jpg",
+  "date": "2020-06-23T21:30:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Design",
+  "tags": [
+    "Ultimate Series",
+    "Projeto pessoal"
+  ],
+  "layout": "portrait-layout",
+  "filter": "filter-dunastone",
+  "typography": null,
+  "draft": true,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": null,
+  "body": {
+    "raw": "\n### Sobre\n\nImagem com aplicação do meu estilo visual. Como base foi utilizada uma imagem da cantora Britney Spears.\n\nhttps://www.behance.net/gallery/126848121/Ultimate-Series-N-021-Britney-Spears\n\n<figure>\n<img src=\"https://i.imgur.com/wp7N4XE.jpg\" className=\"max-w-none mx-auto block\"/>\n</figure>\n",
+    "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),w=(a,e)=>{for(var n in e)i(a,n,{get:e[n],enumerable:!0})},s=(a,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of d(e))!f.call(a,r)&&r!==n&&i(a,r,{get:()=>e[r],enumerable:!(o=h(e,r))||o.enumerable});return a};var x=(a,e,n)=>(n=a!=null?u(g(a)):{},s(e||!a||!a.__esModule?i(n,\"default\",{value:a,enumerable:!0}):n,a)),S=a=>s(i({},\"__esModule\",{value:!0}),a);var c=y((_,l)=>{l.exports=_jsx_runtime});var j={};w(j,{default:()=>p,frontmatter:()=>b});var t=x(c()),b={title:\"Ultimate Series - N\\xBA 021 - Britney Spears\",description:null,imageHeader:\"https://i.imgur.com/wp7N4XE.jpg\",cover:\"https://i.imgur.com/wp7N4XE.jpg\",date:\"2020-06-23 18:30\",modifiedDate:null,channel:\"Arts\",category:\"Design\",tags:[\"Ultimate Series\",\"Projeto pessoal\"],layout:\"portrait-layout\",filter:\"filter-dunastone\",typography:null,draft:!0,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:null};function m(a){let e={a:\"a\",h3:\"h3\",p:\"p\",span:\"span\",...a.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.h3,{id:\"sobre\",children:[(0,t.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#sobre\",children:(0,t.jsx)(e.span,{className:\"icon icon-link\"})}),\"Sobre\"]}),`\n`,(0,t.jsx)(e.p,{children:\"Imagem com aplica\\xE7\\xE3o do meu estilo visual. Como base foi utilizada uma imagem da cantora Britney Spears.\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.a,{href:\"https://www.behance.net/gallery/126848121/Ultimate-Series-N-021-Britney-Spears\",children:\"https://www.behance.net/gallery/126848121/Ultimate-Series-N-021-Britney-Spears\"})}),`\n`,(0,t.jsx)(\"figure\",{children:(0,t.jsx)(\"img\",{src:\"https://i.imgur.com/wp7N4XE.jpg\",className:\"max-w-none mx-auto block\"})})]})}function p(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(m,{...a})}):m(a)}return S(j);})();\n;return Component;"
+  },
+  "_id": "projects/ultimate-series-021.md",
+  "_raw": {
+    "sourceFilePath": "projects/ultimate-series-021.md",
+    "sourceFileName": "ultimate-series-021.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/ultimate-series-021"
+  },
+  "type": "Article",
+  "slug": "/projects/ultimate-series-021"
+}

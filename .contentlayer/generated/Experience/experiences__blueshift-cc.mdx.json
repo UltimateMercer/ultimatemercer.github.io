@@ -1,0 +1,31 @@
+{
+  "company": "blueshift.cc",
+  "role": "Desenvolvedor Front-end",
+  "description": "Sustentação de um hub para startups; Criação de landing pages;",
+  "start": "2021-01-01 00:00",
+  "end": "2022-12-31 23:59",
+  "image": "https://i.imgur.com/fxDITOw.jpg",
+  "tags": [
+    "Vue.JS (V. 2)",
+    "Nuxt",
+    "Node.js",
+    "Javascript",
+    "jQuery",
+    "C#",
+    "GitHub",
+    "Git"
+  ],
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "experiences/blueshift-cc.mdx",
+  "_raw": {
+    "sourceFilePath": "experiences/blueshift-cc.mdx",
+    "sourceFileName": "blueshift-cc.mdx",
+    "sourceFileDir": "experiences",
+    "contentType": "mdx",
+    "flattenedPath": "experiences/blueshift-cc"
+  },
+  "type": "Experience"
+}

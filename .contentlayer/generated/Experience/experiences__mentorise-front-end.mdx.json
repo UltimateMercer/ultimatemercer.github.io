@@ -1,0 +1,29 @@
+{
+  "company": "Mentorise",
+  "role": "Desenvolvedor Front-end",
+  "description": "Desenvolvimento de componentes para uma dashboard; Criação de design system para a plataforma;",
+  "start": "2022-01-01 00:00",
+  "end": "2022-07-31 23:59",
+  "image": "",
+  "tags": [
+    "React",
+    "Node.js",
+    "Javascript",
+    "SCSS",
+    "GitHub",
+    "Git"
+  ],
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "experiences/mentorise-front-end.mdx",
+  "_raw": {
+    "sourceFilePath": "experiences/mentorise-front-end.mdx",
+    "sourceFileName": "mentorise-front-end.mdx",
+    "sourceFileDir": "experiences",
+    "contentType": "mdx",
+    "flattenedPath": "experiences/mentorise-front-end"
+  },
+  "type": "Experience"
+}

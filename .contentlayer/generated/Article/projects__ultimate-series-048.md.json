@@ -1,0 +1,50 @@
+{
+  "title": "Ultimate Series - Nº 048",
+  "description": null,
+  "cover": "https://i.imgur.com/yb5WVlW.jpg",
+  "imageHeader": "https://i.imgur.com/yb5WVlW.jpg",
+  "date": "2021-06-23T01:00:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Design",
+  "tags": [
+    "Ultimate Series",
+    "Projeto pessoal"
+  ],
+  "layout": "fullpage-layout",
+  "filter": "filter-purple-red-orange",
+  "typography": null,
+  "draft": false,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": [
+    "https://i.imgur.com/yb5WVlW.jpg",
+    "https://i.imgur.com/aRzS4HB.jpg",
+    "https://i.imgur.com/jzPNeDM.jpg",
+    "https://i.imgur.com/CiHzwUF.jpg",
+    "https://i.imgur.com/HljB6g8.jpg",
+    "https://i.imgur.com/Bw24hpt.jpg",
+    "https://i.imgur.com/0ZM93KJ.jpg",
+    "https://i.imgur.com/f2LpxH8.jpg"
+  ],
+  "body": {
+    "raw": "\n### Sobre\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus ante augue, quis fermentum diam varius eu. Ut hendrerit erat a lectus facilisis, eu consequat eros accumsan. Etiam et sagittis magna. Pellentesque eu tempus turpis, id auctor est. Aenean pharetra varius justo, eget viverra massa ornare eget. Sed hendrerit tristique nunc quis rutrum. Nunc ut iaculis eros.\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},u=(t,e,r,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of h(e))!j.call(t,i)&&i!==r&&s(t,i,{get:()=>e[i],enumerable:!(n=g(e,i))||n.enumerable});return t};var y=(t,e,r)=>(r=t!=null?p(d(t)):{},u(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),b=t=>u(s({},\"__esModule\",{value:!0}),t);var m=f((S,o)=>{o.exports=_jsx_runtime});var q={};x(q,{default:()=>c,frontmatter:()=>_});var a=y(m()),_={title:\"Ultimate Series - N\\xBA 048\",description:null,imageHeader:\"https://i.imgur.com/yb5WVlW.jpg\",cover:\"https://i.imgur.com/yb5WVlW.jpg\",date:\"2021-06-22 22:00\",modifiedDate:null,channel:\"Arts\",category:\"Design\",tags:[\"Ultimate Series\",\"Projeto pessoal\"],layout:\"fullpage-layout\",filter:\"filter-purple-red-orange\",typography:null,draft:!1,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:[\"https://i.imgur.com/yb5WVlW.jpg\",\"https://i.imgur.com/aRzS4HB.jpg\",\"https://i.imgur.com/jzPNeDM.jpg\",\"https://i.imgur.com/CiHzwUF.jpg\",\"https://i.imgur.com/HljB6g8.jpg\",\"https://i.imgur.com/Bw24hpt.jpg\",\"https://i.imgur.com/0ZM93KJ.jpg\",\"https://i.imgur.com/f2LpxH8.jpg\"]};function l(t){let e={a:\"a\",h3:\"h3\",p:\"p\",span:\"span\",...t.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsxs)(e.h3,{id:\"sobre\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#sobre\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"Sobre\"]}),`\n`,(0,a.jsx)(e.p,{children:\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus ante augue, quis fermentum diam varius eu. Ut hendrerit erat a lectus facilisis, eu consequat eros accumsan. Etiam et sagittis magna. Pellentesque eu tempus turpis, id auctor est. Aenean pharetra varius justo, eget viverra massa ornare eget. Sed hendrerit tristique nunc quis rutrum. Nunc ut iaculis eros.\"})]})}function c(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(l,{...t})}):l(t)}return b(q);})();\n;return Component;"
+  },
+  "_id": "projects/ultimate-series-048.md",
+  "_raw": {
+    "sourceFilePath": "projects/ultimate-series-048.md",
+    "sourceFileName": "ultimate-series-048.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/ultimate-series-048"
+  },
+  "type": "Article",
+  "slug": "/projects/ultimate-series-048"
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Ultimate Series - Nº 004 - Dua Lipa",
+  "description": null,
+  "cover": "https://i.imgur.com/KsM3NaX.jpg",
+  "imageHeader": "https://i.imgur.com/KsM3NaX.jpg",
+  "date": "2019-07-14T22:30:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Design",
+  "tags": [
+    "Ultimate Series",
+    "Projeto pessoal"
+  ],
+  "layout": "fullpage-layout",
+  "filter": "filter-neon-lights",
+  "typography": null,
+  "draft": true,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": null,
+  "body": {
+    "raw": "\n## Sobre\n\nEsta foi basicamente uma das primeiras imagens que eu editei, pois na época com pouca técnica e conhecimento ela era relativamente fácil de recortar XD. Esta versão já um remake da original, vide a data. Trabalhar esse estilo surgiu a partir de um tutorial em que se era tentado aplicar um estilo visual utilizado em artes do jogo da produtora _Rockstar Games_, _Grand Theft Auto 5_. Recriar este estilo necessita de ferramentas e habilidades que eu não possuo no momento(mas no futuro quem sabe né...), então aplico aquilo que eu tirei de melhor dessa experiência procurando aprimorar o que eu aprendi através das artes que venho desenvolvendo.\n\nPretendo futuramente, trabalhar em um remake desta imagem novamente.\n\nBehance Link:\n\nhttps://www.behance.net/gallery/126422179/Ultimate-Series-N-004-Dua-Lipa\n\n<figure>\n<img src=\"https://i.imgur.com/KsM3NaX.jpg\" className=\"max-w-none mx-auto block\"/>\n</figure>\n",
+    "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var r in e)i(a,r,{get:e[r],enumerable:!0})},s=(a,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of h(e))!f.call(a,n)&&n!==r&&i(a,n,{get:()=>e[n],enumerable:!(o=p(e,n))||o.enumerable});return a};var j=(a,e,r)=>(r=a!=null?d(g(a)):{},s(e||!a||!a.__esModule?i(r,\"default\",{value:a,enumerable:!0}):r,a)),v=a=>s(i({},\"__esModule\",{value:!0}),a);var m=b((w,l)=>{l.exports=_jsx_runtime});var y={};x(y,{default:()=>c,frontmatter:()=>q});var t=j(m()),q={title:\"Ultimate Series - N\\xBA 004 - Dua Lipa\",description:null,imageHeader:\"https://i.imgur.com/KsM3NaX.jpg\",cover:\"https://i.imgur.com/KsM3NaX.jpg\",date:\"2019-07-14 19:30\",modifiedDate:null,channel:\"Arts\",category:\"Design\",tags:[\"Ultimate Series\",\"Projeto pessoal\"],layout:\"fullpage-layout\",filter:\"filter-neon-lights\",typography:null,draft:!0,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:null};function u(a){let e={a:\"a\",em:\"em\",h2:\"h2\",p:\"p\",span:\"span\",...a.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.h2,{id:\"sobre\",children:[(0,t.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#sobre\",children:(0,t.jsx)(e.span,{className:\"icon icon-link\"})}),\"Sobre\"]}),`\n`,(0,t.jsxs)(e.p,{children:[\"Esta foi basicamente uma das primeiras imagens que eu editei, pois na \\xE9poca com pouca t\\xE9cnica e conhecimento ela era relativamente f\\xE1cil de recortar XD. Esta vers\\xE3o j\\xE1 um remake da original, vide a data. Trabalhar esse estilo surgiu a partir de um tutorial em que se era tentado aplicar um estilo visual utilizado em artes do jogo da produtora \",(0,t.jsx)(e.em,{children:\"Rockstar Games\"}),\", \",(0,t.jsx)(e.em,{children:\"Grand Theft Auto 5\"}),\". Recriar este estilo necessita de ferramentas e habilidades que eu n\\xE3o possuo no momento(mas no futuro quem sabe n\\xE9...), ent\\xE3o aplico aquilo que eu tirei de melhor dessa experi\\xEAncia procurando aprimorar o que eu aprendi atrav\\xE9s das artes que venho desenvolvendo.\"]}),`\n`,(0,t.jsx)(e.p,{children:\"Pretendo futuramente, trabalhar em um remake desta imagem novamente.\"}),`\n`,(0,t.jsx)(e.p,{children:\"Behance Link:\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.a,{href:\"https://www.behance.net/gallery/126422179/Ultimate-Series-N-004-Dua-Lipa\",children:\"https://www.behance.net/gallery/126422179/Ultimate-Series-N-004-Dua-Lipa\"})}),`\n`,(0,t.jsx)(\"figure\",{children:(0,t.jsx)(\"img\",{src:\"https://i.imgur.com/KsM3NaX.jpg\",className:\"max-w-none mx-auto block\"})})]})}function c(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(u,{...a})}):u(a)}return v(y);})();\n;return Component;"
+  },
+  "_id": "projects/ultimate-series-004.md",
+  "_raw": {
+    "sourceFilePath": "projects/ultimate-series-004.md",
+    "sourceFileName": "ultimate-series-004.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/ultimate-series-004"
+  },
+  "type": "Article",
+  "slug": "/projects/ultimate-series-004"
+}

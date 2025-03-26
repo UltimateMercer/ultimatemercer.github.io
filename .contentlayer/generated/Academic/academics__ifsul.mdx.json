@@ -1,0 +1,19 @@
+{
+  "institute": "IFSul - Instituto Federal Sul-rio-grandense - Pelotas/RS",
+  "course": "Tecnólogo em Sistemas para Internet",
+  "status": "Formado",
+  "image": "https://i.imgur.com/aOYbbmu.jpg",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "academics/ifsul.mdx",
+  "_raw": {
+    "sourceFilePath": "academics/ifsul.mdx",
+    "sourceFileName": "ifsul.mdx",
+    "sourceFileDir": "academics",
+    "contentType": "mdx",
+    "flattenedPath": "academics/ifsul"
+  },
+  "type": "Academic"
+}

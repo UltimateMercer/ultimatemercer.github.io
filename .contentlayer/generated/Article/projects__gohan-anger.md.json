@@ -1,0 +1,40 @@
+{
+  "title": "Anger - Gohan - Dragon Ball Minimalista",
+  "description": null,
+  "cover": "https://i.imgur.com/0xG3dqX.png",
+  "imageHeader": "https://i.imgur.com/0xG3dqX.png",
+  "date": "2017-09-30T22:30:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Pessoal",
+  "tags": [
+    "Projeto pessoal"
+  ],
+  "layout": "landscape-layout",
+  "filter": "filter-dark-red",
+  "typography": null,
+  "draft": true,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": null,
+  "body": {
+    "raw": "\n### Sobre\n\nArte minimalista usando o personagem Gohan de Dragon Ball Z.\n\n<figure>\n  <img src=\"https://i.imgur.com/0xG3dqX.png\" className=\"max-w-none mx-auto block\"/>\n</figure>\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(n,a)=>()=>(a||n((a={exports:{}}).exports,a),a.exports),y=(n,a)=>{for(var t in a)o(n,t,{get:a[t],enumerable:!0})},l=(n,a,t,s)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of h(a))!x.call(n,r)&&r!==t&&o(n,r,{get:()=>a[r],enumerable:!(s=p(a,r))||s.enumerable});return n};var _=(n,a,t)=>(t=n!=null?d(g(n)):{},l(a||!n||!n.__esModule?o(t,\"default\",{value:n,enumerable:!0}):t,n)),b=n=>l(o({},\"__esModule\",{value:!0}),n);var c=f((X,i)=>{i.exports=_jsx_runtime});var D={};y(D,{default:()=>u,frontmatter:()=>j});var e=_(c()),j={title:\"Anger - Gohan - Dragon Ball Minimalista\",description:null,imageHeader:\"https://i.imgur.com/0xG3dqX.png\",cover:\"https://i.imgur.com/0xG3dqX.png\",date:\"2017-09-30 19:30\",modifiedDate:null,channel:\"Arts\",category:\"Pessoal\",tags:[\"Projeto pessoal\"],layout:\"landscape-layout\",filter:\"filter-dark-red\",typography:null,draft:!0,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:null};function m(n){let a={a:\"a\",h3:\"h3\",p:\"p\",span:\"span\",...n.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(a.h3,{id:\"sobre\",children:[(0,e.jsx)(a.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#sobre\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"Sobre\"]}),`\n`,(0,e.jsx)(a.p,{children:\"Arte minimalista usando o personagem Gohan de Dragon Ball Z.\"}),`\n`,(0,e.jsx)(\"figure\",{children:(0,e.jsx)(\"img\",{src:\"https://i.imgur.com/0xG3dqX.png\",className:\"max-w-none mx-auto block\"})})]})}function u(n={}){let{wrapper:a}=n.components||{};return a?(0,e.jsx)(a,{...n,children:(0,e.jsx)(m,{...n})}):m(n)}return b(D);})();\n;return Component;"
+  },
+  "_id": "projects/gohan-anger.md",
+  "_raw": {
+    "sourceFilePath": "projects/gohan-anger.md",
+    "sourceFileName": "gohan-anger.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/gohan-anger"
+  },
+  "type": "Article",
+  "slug": "/projects/gohan-anger"
+}

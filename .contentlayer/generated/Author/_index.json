@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Julian Silva da Cunha",
+    "avatar": "https://i.imgur.com/rkCtudG.jpg",
+    "occupation": "Developer",
+    "email": null,
+    "github": "https://github.com",
+    "medium": null,
+    "twitter": "https://twitter.com/Twitter",
+    "linkedin": "https://www.linkedin.com",
+    "instagram": null,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "authors/ultimatemercer.md",
+    "_raw": {
+      "sourceFilePath": "authors/ultimatemercer.md",
+      "sourceFileName": "ultimatemercer.md",
+      "sourceFileDir": "authors",
+      "contentType": "markdown",
+      "flattenedPath": "authors/ultimatemercer"
+    },
+    "type": "Author"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "title": "Ultimate Series - Nº 008 - Homelander",
+  "description": null,
+  "cover": "https://i.imgur.com/v7HqYh9.jpg",
+  "imageHeader": "https://i.imgur.com/v7HqYh9.jpg",
+  "date": "2019-08-09T22:30:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Design",
+  "tags": [
+    "Ultimate Series",
+    "Projeto pessoal"
+  ],
+  "layout": "landscape-layout",
+  "filter": "filter-dark-red",
+  "typography": null,
+  "draft": true,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": null,
+  "body": {
+    "raw": "\n## Sobre\n\nEdição de imagens.\n\nhttps://www.behance.net/gallery/126619387/Ultimate-Series-N-008-Homelander\n\n<figure>\n<img src=\"https://i.imgur.com/v7HqYh9.jpg\" className=\"max-w-none mx-auto block\"/>\n</figure>\n",
+    "code": "var Component=(()=>{var d=Object.create;var l=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var t in e)l(a,t,{get:e[t],enumerable:!0})},o=(a,e,t,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of p(e))!f.call(a,r)&&r!==t&&l(a,r,{get:()=>e[r],enumerable:!(i=u(e,r))||i.enumerable});return a};var y=(a,e,t)=>(t=a!=null?d(g(a)):{},o(e||!a||!a.__esModule?l(t,\"default\",{value:a,enumerable:!0}):t,a)),b=a=>o(l({},\"__esModule\",{value:!0}),a);var c=x((N,s)=>{s.exports=_jsx_runtime});var H={};j(H,{default:()=>h,frontmatter:()=>w});var n=y(c()),w={title:\"Ultimate Series - N\\xBA 008 - Homelander\",description:null,imageHeader:\"https://i.imgur.com/v7HqYh9.jpg\",cover:\"https://i.imgur.com/v7HqYh9.jpg\",date:\"2019-08-09 19:30\",modifiedDate:null,channel:\"Arts\",category:\"Design\",tags:[\"Ultimate Series\",\"Projeto pessoal\"],layout:\"landscape-layout\",filter:\"filter-dark-red\",typography:null,draft:!0,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:null};function m(a){let e={a:\"a\",h2:\"h2\",p:\"p\",span:\"span\",...a.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.h2,{id:\"sobre\",children:[(0,n.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#sobre\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Sobre\"]}),`\n`,(0,n.jsx)(e.p,{children:\"Edi\\xE7\\xE3o de imagens.\"}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.a,{href:\"https://www.behance.net/gallery/126619387/Ultimate-Series-N-008-Homelander\",children:\"https://www.behance.net/gallery/126619387/Ultimate-Series-N-008-Homelander\"})}),`\n`,(0,n.jsx)(\"figure\",{children:(0,n.jsx)(\"img\",{src:\"https://i.imgur.com/v7HqYh9.jpg\",className:\"max-w-none mx-auto block\"})})]})}function h(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(m,{...a})}):m(a)}return b(H);})();\n;return Component;"
+  },
+  "_id": "projects/ultimate-series-008.md",
+  "_raw": {
+    "sourceFilePath": "projects/ultimate-series-008.md",
+    "sourceFileName": "ultimate-series-008.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/ultimate-series-008"
+  },
+  "type": "Article",
+  "slug": "/projects/ultimate-series-008"
+}

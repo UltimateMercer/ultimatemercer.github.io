@@ -1,0 +1,40 @@
+{
+  "title": "Blklight - ManOfTheMatch",
+  "description": null,
+  "cover": "https://i.imgur.com/AOOqa0N.jpg",
+  "imageHeader": "https://i.imgur.com/AOOqa0N.jpg",
+  "date": "2019-03-20T19:30:00.000Z",
+  "modifiedDate": null,
+  "channel": "Dev",
+  "category": "Pessoal",
+  "tags": [
+    "Projeto pessoal"
+  ],
+  "layout": "landscape-layout",
+  "filter": "filter-cyberpunk-ix",
+  "typography": null,
+  "draft": true,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": null,
+  "body": {
+    "raw": "\n# Em atualização...\n",
+    "code": "var Component=(()=>{var h=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var x=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var t in e)l(a,t,{get:e[t],enumerable:!0})},i=(a,e,t,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of d(e))!g.call(a,o)&&o!==t&&l(a,o,{get:()=>e[o],enumerable:!(r=p(e,o))||r.enumerable});return a};var y=(a,e,t)=>(t=a!=null?h(f(a)):{},i(e||!a||!a.__esModule?l(t,\"default\",{value:a,enumerable:!0}):t,a)),_=a=>i(l({},\"__esModule\",{value:!0}),a);var c=x((D,s)=>{s.exports=_jsx_runtime});var O={};j(O,{default:()=>m,frontmatter:()=>M});var n=y(c()),M={title:\"Blklight - ManOfTheMatch\",description:null,imageHeader:\"https://i.imgur.com/AOOqa0N.jpg\",cover:\"https://i.imgur.com/AOOqa0N.jpg\",date:\"2019-03-20 16:30\",modifiedDate:null,channel:\"Dev\",category:\"Pessoal\",tags:[\"Projeto pessoal\"],layout:\"landscape-layout\",filter:\"filter-cyberpunk-ix\",typography:null,draft:!0,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:null};function u(a){let e={a:\"a\",h1:\"h1\",span:\"span\",...a.components};return(0,n.jsxs)(e.h1,{id:\"em-atualiza\\xE7\\xE3o\",children:[(0,n.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#em-atualiza\\xE7\\xE3o\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Em atualiza\\xE7\\xE3o...\"]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,n.jsx)(e,{...a,children:(0,n.jsx)(u,{...a})}):u(a)}return _(O);})();\n;return Component;"
+  },
+  "_id": "projects/blklight-motm.md",
+  "_raw": {
+    "sourceFilePath": "projects/blklight-motm.md",
+    "sourceFileName": "blklight-motm.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/blklight-motm"
+  },
+  "type": "Article",
+  "slug": "/projects/blklight-motm"
+}

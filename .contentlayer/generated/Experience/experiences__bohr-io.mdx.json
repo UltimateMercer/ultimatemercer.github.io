@@ -1,0 +1,29 @@
+{
+  "company": "bohr.io",
+  "role": "Desenvolvedor Front-end",
+  "description": "Desenvolvimento de uma landing page para assinatura de uma newsletter; Desenvolvimento de componentes para uma ferramenta de deploy web; Criação de projetos templates.",
+  "start": "2022-01-01 00:00",
+  "end": "2022-12-31 23:59",
+  "image": "https://i.imgur.com/fxDITOw.jpg",
+  "tags": [
+    "Vue.JS (V. 2/ V. 3)",
+    "React",
+    "Node.js",
+    "Javascript",
+    "GitHub",
+    "Git"
+  ],
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "experiences/bohr-io.mdx",
+  "_raw": {
+    "sourceFilePath": "experiences/bohr-io.mdx",
+    "sourceFileName": "bohr-io.mdx",
+    "sourceFileDir": "experiences",
+    "contentType": "mdx",
+    "flattenedPath": "experiences/bohr-io"
+  },
+  "type": "Experience"
+}

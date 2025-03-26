@@ -1,0 +1,41 @@
+{
+  "title": "Ultimate Series - Nº 022 - Emma Watson",
+  "description": null,
+  "cover": "https://i.imgur.com/VclH5bY.jpg",
+  "imageHeader": "https://i.imgur.com/VclH5bY.jpg",
+  "date": "2020-06-24T23:30:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Design",
+  "tags": [
+    "Ultimate Series",
+    "Projeto pessoal"
+  ],
+  "layout": "portrait-layout",
+  "filter": "filter-black-white",
+  "typography": null,
+  "draft": true,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": null,
+  "body": {
+    "raw": "\n# Sobre\n\nImagem com aplicação do meu estilo visual, a partir de uma foto da atriz Emma Watson.\n\nhttps://www.behance.net/gallery/126848395/Ultimate-Series-N-022-Emma-Watson\n\n<figure>\n<img src=\"https://i.imgur.com/VclH5bY.jpg\" className=\"max-w-none mx-auto block\"/>\n</figure>\n",
+    "code": "var Component=(()=>{var h=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),x=(a,e)=>{for(var n in e)i(a,n,{get:e[n],enumerable:!0})},l=(a,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of d(e))!f.call(a,r)&&r!==n&&i(a,r,{get:()=>e[r],enumerable:!(o=p(e,r))||o.enumerable});return a};var j=(a,e,n)=>(n=a!=null?h(g(a)):{},l(e||!a||!a.__esModule?i(n,\"default\",{value:a,enumerable:!0}):n,a)),w=a=>l(i({},\"__esModule\",{value:!0}),a);var m=b((S,s)=>{s.exports=_jsx_runtime});var _={};x(_,{default:()=>u,frontmatter:()=>y});var t=j(m()),y={title:\"Ultimate Series - N\\xBA 022 - Emma Watson\",description:null,imageHeader:\"https://i.imgur.com/VclH5bY.jpg\",cover:\"https://i.imgur.com/VclH5bY.jpg\",date:\"2020-06-24 20:30\",modifiedDate:null,channel:\"Arts\",category:\"Design\",tags:[\"Ultimate Series\",\"Projeto pessoal\"],layout:\"portrait-layout\",filter:\"filter-black-white\",typography:null,draft:!0,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:null};function c(a){let e={a:\"a\",h1:\"h1\",p:\"p\",span:\"span\",...a.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.h1,{id:\"sobre\",children:[(0,t.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#sobre\",children:(0,t.jsx)(e.span,{className:\"icon icon-link\"})}),\"Sobre\"]}),`\n`,(0,t.jsx)(e.p,{children:\"Imagem com aplica\\xE7\\xE3o do meu estilo visual, a partir de uma foto da atriz Emma Watson.\"}),`\n`,(0,t.jsx)(e.p,{children:(0,t.jsx)(e.a,{href:\"https://www.behance.net/gallery/126848395/Ultimate-Series-N-022-Emma-Watson\",children:\"https://www.behance.net/gallery/126848395/Ultimate-Series-N-022-Emma-Watson\"})}),`\n`,(0,t.jsx)(\"figure\",{children:(0,t.jsx)(\"img\",{src:\"https://i.imgur.com/VclH5bY.jpg\",className:\"max-w-none mx-auto block\"})})]})}function u(a={}){let{wrapper:e}=a.components||{};return e?(0,t.jsx)(e,{...a,children:(0,t.jsx)(c,{...a})}):c(a)}return w(_);})();\n;return Component;"
+  },
+  "_id": "projects/ultimate-series-022.md",
+  "_raw": {
+    "sourceFilePath": "projects/ultimate-series-022.md",
+    "sourceFileName": "ultimate-series-022.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/ultimate-series-022"
+  },
+  "type": "Article",
+  "slug": "/projects/ultimate-series-022"
+}

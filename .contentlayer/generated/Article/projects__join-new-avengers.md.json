@@ -1,0 +1,38 @@
+{
+  "title": "Join New Avengers",
+  "description": "Arte produzida para avaliação na disciplina de Tipografia 1, do curso de Design Digital.",
+  "cover": "https://i.imgur.com/uIY2t68.jpg",
+  "imageHeader": "https://i.imgur.com/jlu6jwf.jpg",
+  "date": "2019-05-30T18:00:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Design",
+  "tags": [],
+  "layout": "fullpage-layout",
+  "filter": "filter-dark-red",
+  "typography": null,
+  "draft": false,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": null,
+  "body": {
+    "raw": "\n## Estética do poster: Construtivismo Russo\n\nO conceito era criar um poster de divulgação/promocional de um possível futuro filme da Marvel Studios relacionado ao Vingadores, onde igualmente a muitos cartazes/posters construtivistas tinham como objetivo se comunicar com as massas.\n\nA estética do poster foi pensado e desenvolvido da seguinte maneira, primeiramente decidi representar uma cidade na base do poster e acima desta cidade decidi representar um personagem relacionado aos filmes, sendo escolhida a Capitã Marvel, onde atrás dela foi utilizei estrelas dentro de um círculo, representando o núcleo cósmico ao qual ela pertence, e entre estes elementos o texto _“Join New Avengers”_(Junte-se aos Novos Vingadores) e o símbolo dos Vingadores, e para coloração foi utilizado um duotone em vermelho e azul relacionado as cores do uniforme da personagem representada.\n\nTodo o poster foi desenvolvido e manipulado usando o Adobe Photoshop, e a ideia foi criar um poster que transmitisse para o público a necessidade de se unir novamente um time de heróis, centrado na figura da Capitã Marvel, para prevenir futuras ameaças.\n\n<figure className=\"mb-6\">\n  <img src=\"https://i.imgur.com/jlu6jwf.jpg\" className=\"max-w-full mx-auto block\"/>\n</figure>\n\n<figure className=\"mb-6\">\n  <img src=\"https://i.imgur.com/SG2navJ.jpg\" className=\"max-w-full mx-auto block\"/>\n</figure>\n",
+    "code": "var Component=(()=>{var u=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var v=(a,e)=>()=>(e||a((e={exports:{}}).exports,e),e.exports),j=(a,e)=>{for(var s in e)r(a,s,{get:e[s],enumerable:!0})},n=(a,e,s,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of g(e))!h.call(a,i)&&i!==s&&r(a,i,{get:()=>e[i],enumerable:!(t=p(e,i))||t.enumerable});return a};var x=(a,e,s)=>(s=a!=null?u(f(a)):{},n(e||!a||!a.__esModule?r(s,\"default\",{value:a,enumerable:!0}):s,a)),b=a=>n(r({},\"__esModule\",{value:!0}),a);var l=v((_,d)=>{d.exports=_jsx_runtime});var w={};j(w,{default:()=>m,frontmatter:()=>N});var o=x(l()),N={title:\"Join New Avengers\",description:\"Arte produzida para avalia\\xE7\\xE3o na disciplina de Tipografia 1, do curso de Design Digital.\",imageHeader:\"https://i.imgur.com/jlu6jwf.jpg\",cover:\"https://i.imgur.com/uIY2t68.jpg\",date:\"2019-05-30 15:00\",modifiedDate:null,channel:\"Arts\",category:\"Design\",tags:null,layout:\"fullpage-layout\",filter:\"filter-dark-red\",typography:null,draft:!1,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:null};function c(a){let e={a:\"a\",em:\"em\",h2:\"h2\",p:\"p\",span:\"span\",...a.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsxs)(e.h2,{id:\"est\\xE9tica-do-poster-construtivismo-russo\",children:[(0,o.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#est\\xE9tica-do-poster-construtivismo-russo\",children:(0,o.jsx)(e.span,{className:\"icon icon-link\"})}),\"Est\\xE9tica do poster: Construtivismo Russo\"]}),`\n`,(0,o.jsx)(e.p,{children:\"O conceito era criar um poster de divulga\\xE7\\xE3o/promocional de um poss\\xEDvel futuro filme da Marvel Studios relacionado ao Vingadores, onde igualmente a muitos cartazes/posters construtivistas tinham como objetivo se comunicar com as massas.\"}),`\n`,(0,o.jsxs)(e.p,{children:[\"A est\\xE9tica do poster foi pensado e desenvolvido da seguinte maneira, primeiramente decidi representar uma cidade na base do poster e acima desta cidade decidi representar um personagem relacionado aos filmes, sendo escolhida a Capit\\xE3 Marvel, onde atr\\xE1s dela foi utilizei estrelas dentro de um c\\xEDrculo, representando o n\\xFAcleo c\\xF3smico ao qual ela pertence, e entre estes elementos o texto \",(0,o.jsx)(e.em,{children:\"\\u201CJoin New Avengers\\u201D\"}),\"(Junte-se aos Novos Vingadores) e o s\\xEDmbolo dos Vingadores, e para colora\\xE7\\xE3o foi utilizado um duotone em vermelho e azul relacionado as cores do uniforme da personagem representada.\"]}),`\n`,(0,o.jsx)(e.p,{children:\"Todo o poster foi desenvolvido e manipulado usando o Adobe Photoshop, e a ideia foi criar um poster que transmitisse para o p\\xFAblico a necessidade de se unir novamente um time de her\\xF3is, centrado na figura da Capit\\xE3 Marvel, para prevenir futuras amea\\xE7as.\"}),`\n`,(0,o.jsx)(\"figure\",{className:\"mb-6\",children:(0,o.jsx)(\"img\",{src:\"https://i.imgur.com/jlu6jwf.jpg\",className:\"max-w-full mx-auto block\"})}),`\n`,(0,o.jsx)(\"figure\",{className:\"mb-6\",children:(0,o.jsx)(\"img\",{src:\"https://i.imgur.com/SG2navJ.jpg\",className:\"max-w-full mx-auto block\"})})]})}function m(a={}){let{wrapper:e}=a.components||{};return e?(0,o.jsx)(e,{...a,children:(0,o.jsx)(c,{...a})}):c(a)}return b(w);})();\n;return Component;"
+  },
+  "_id": "projects/join-new-avengers.md",
+  "_raw": {
+    "sourceFilePath": "projects/join-new-avengers.md",
+    "sourceFileName": "join-new-avengers.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/join-new-avengers"
+  },
+  "type": "Article",
+  "slug": "/projects/join-new-avengers"
+}

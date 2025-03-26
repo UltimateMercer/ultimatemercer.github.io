@@ -1,0 +1,46 @@
+{
+  "title": "Ultimate Series - Nº 010 - Kristen Stewart",
+  "description": null,
+  "cover": "https://i.imgur.com/CV9U9ds.jpg",
+  "imageHeader": "https://i.imgur.com/CV9U9ds.jpg",
+  "date": "2019-09-15T00:30:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Design",
+  "tags": [
+    "Ultimate Series",
+    "Projeto pessoal"
+  ],
+  "layout": "fullpage-layout",
+  "filter": "filter-blue-red-golden",
+  "typography": null,
+  "draft": true,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": [
+    "https://i.imgur.com/Mp7rbEu.jpg",
+    "https://i.imgur.com/wMFq903.jpg",
+    "https://i.imgur.com/CV9U9ds.jpg",
+    "https://i.imgur.com/qYREIfq.jpg"
+  ],
+  "body": {
+    "raw": "\n## Sobre\n\nUma das primeiras imagens editadas utilizando-se desse estilo de visual que eu comecei a aplicar em diferentes imagens, além disso nesta época comecei a buscar melhorar as minhas habilidades de recorte.\n\nhttps://www.behance.net/gallery/126619903/Ultimate-Series-N-010-Kristen-Stewart\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var r in e)s(t,r,{get:e[r],enumerable:!0})},l=(t,e,r,n)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of h(e))!f.call(t,i)&&i!==r&&s(t,i,{get:()=>e[i],enumerable:!(n=u(e,i))||n.enumerable});return t};var w=(t,e,r)=>(r=t!=null?p(g(t)):{},l(e||!t||!t.__esModule?s(r,\"default\",{value:t,enumerable:!0}):r,t)),x=t=>l(s({},\"__esModule\",{value:!0}),t);var c=j((_,o)=>{o.exports=_jsx_runtime});var S={};b(S,{default:()=>d,frontmatter:()=>y});var a=w(c()),y={title:\"Ultimate Series - N\\xBA 010 - Kristen Stewart\",description:null,imageHeader:\"https://i.imgur.com/CV9U9ds.jpg\",cover:\"https://i.imgur.com/CV9U9ds.jpg\",date:\"2019-09-14 21:30\",modifiedDate:null,channel:\"Arts\",category:\"Design\",tags:[\"Ultimate Series\",\"Projeto pessoal\"],layout:\"fullpage-layout\",filter:\"filter-blue-red-golden\",typography:null,draft:!0,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:[\"https://i.imgur.com/Mp7rbEu.jpg\",\"https://i.imgur.com/wMFq903.jpg\",\"https://i.imgur.com/CV9U9ds.jpg\",\"https://i.imgur.com/qYREIfq.jpg\"]};function m(t){let e={a:\"a\",h2:\"h2\",p:\"p\",span:\"span\",...t.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsxs)(e.h2,{id:\"sobre\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#sobre\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"Sobre\"]}),`\n`,(0,a.jsx)(e.p,{children:\"Uma das primeiras imagens editadas utilizando-se desse estilo de visual que eu comecei a aplicar em diferentes imagens, al\\xE9m disso nesta \\xE9poca comecei a buscar melhorar as minhas habilidades de recorte.\"}),`\n`,(0,a.jsx)(e.p,{children:(0,a.jsx)(e.a,{href:\"https://www.behance.net/gallery/126619903/Ultimate-Series-N-010-Kristen-Stewart\",children:\"https://www.behance.net/gallery/126619903/Ultimate-Series-N-010-Kristen-Stewart\"})})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(m,{...t})}):m(t)}return x(S);})();\n;return Component;"
+  },
+  "_id": "projects/ultimate-series-010.md",
+  "_raw": {
+    "sourceFilePath": "projects/ultimate-series-010.md",
+    "sourceFileName": "ultimate-series-010.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/ultimate-series-010"
+  },
+  "type": "Article",
+  "slug": "/projects/ultimate-series-010"
+}

@@ -1,0 +1,19 @@
+{
+  "institute": "TopWay - English School - Pelotas/RS",
+  "course": "Inglês - Avançado",
+  "status": "Concluído em 2018",
+  "image": "https://i.imgur.com/qrjFnG0.jpg",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "academics/topway.mdx",
+  "_raw": {
+    "sourceFilePath": "academics/topway.mdx",
+    "sourceFileName": "topway.mdx",
+    "sourceFileDir": "academics",
+    "contentType": "mdx",
+    "flattenedPath": "academics/topway"
+  },
+  "type": "Academic"
+}

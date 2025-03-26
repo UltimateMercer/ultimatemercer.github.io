@@ -1,0 +1,38 @@
+{
+  "title": "Mercer Protocol",
+  "description": null,
+  "cover": "https://i.imgur.com/WDOWQMT.jpg",
+  "imageHeader": "https://i.imgur.com/WDOWQMT.jpg",
+  "date": "2019-12-09T21:30:00.000Z",
+  "modifiedDate": null,
+  "channel": "Arts",
+  "category": "Design",
+  "tags": [],
+  "layout": "portrait-layout",
+  "filter": "filter-dark-red",
+  "typography": null,
+  "draft": true,
+  "authors": [
+    {
+      "name": "Julian Silva da Cunha",
+      "quote": null,
+      "type": "AuthorsArticle",
+      "_raw": {}
+    }
+  ],
+  "gallery": null,
+  "body": {
+    "raw": "\n## Em atualização...\n",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(a,t)=>()=>(t||a((t={exports:{}}).exports,t),t.exports),j=(a,t)=>{for(var e in t)o(a,e,{get:t[e],enumerable:!0})},i=(a,t,e,l)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!f.call(a,r)&&r!==e&&o(a,r,{get:()=>t[r],enumerable:!(l=h(t,r))||l.enumerable});return a};var y=(a,t,e)=>(e=a!=null?d(g(a)):{},i(t||!a||!a.__esModule?o(e,\"default\",{value:a,enumerable:!0}):e,a)),D=a=>i(o({},\"__esModule\",{value:!0}),a);var u=x((k,s)=>{s.exports=_jsx_runtime});var _={};j(_,{default:()=>m,frontmatter:()=>M});var n=y(u()),M={title:\"Mercer Protocol\",description:null,imageHeader:\"https://i.imgur.com/WDOWQMT.jpg\",cover:\"https://i.imgur.com/WDOWQMT.jpg\",date:\"2019-12-09 18:30\",modifiedDate:null,channel:\"Arts\",category:\"Design\",tags:null,layout:\"portrait-layout\",filter:\"filter-dark-red\",typography:null,draft:!0,authors:[{name:\"Julian Silva da Cunha\",quote:null}],gallery:null};function c(a){let t={a:\"a\",h2:\"h2\",span:\"span\",...a.components};return(0,n.jsxs)(t.h2,{id:\"em-atualiza\\xE7\\xE3o\",children:[(0,n.jsx)(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link para a se\\xE7\\xE3o\",href:\"#em-atualiza\\xE7\\xE3o\",children:(0,n.jsx)(t.span,{className:\"icon icon-link\"})}),\"Em atualiza\\xE7\\xE3o...\"]})}function m(a={}){let{wrapper:t}=a.components||{};return t?(0,n.jsx)(t,{...a,children:(0,n.jsx)(c,{...a})}):c(a)}return D(_);})();\n;return Component;"
+  },
+  "_id": "projects/mercer-protocol.md",
+  "_raw": {
+    "sourceFilePath": "projects/mercer-protocol.md",
+    "sourceFileName": "mercer-protocol.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/mercer-protocol"
+  },
+  "type": "Article",
+  "slug": "/projects/mercer-protocol"
+}
