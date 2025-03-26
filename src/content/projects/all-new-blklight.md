@@ -19,8 +19,6 @@ authors:
 gallery:
 ---
 
-# **All New Blklight**
-
 O Blklight sempre foi um espaço para experimentar, aprender e evoluir. Desde o começo, a ideia era unir design e desenvolvimento de um jeito prático, testando conceitos e aprimorando habilidades. Agora, chegou a hora de dar um passo adiante: **o All New Blklight**.
 
 ## **O que mudou?**

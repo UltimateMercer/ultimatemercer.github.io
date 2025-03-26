@@ -1,8 +1,8 @@
 ---
 title: "Glyph: Uma Plataforma Inspirada no Universo de Mass Effect"
 description:
-imageHeader: https://i.imgur.com/AOOqa0N.jpg
-cover: https://i.imgur.com/AOOqa0N.jpg
+imageHeader: "/images/glyph.png"
+cover: "/images/glyph.png"
 date: 2025-03-14 16:30
 modifiedDate:
 channel: Dev

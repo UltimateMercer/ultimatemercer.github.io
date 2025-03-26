@@ -11,11 +11,6 @@ type Props = {
 
 export async function generateStaticParams() {
   const docs = await getDocuments();
-  console.log(
-    docs.map((doc) => ({
-      slug: doc.document.slug.replace("/projects/", ""),
-    }))
-  );
 
   return docs.map((doc) => ({
     slug: doc.document.slug.replace("/projects/", ""),

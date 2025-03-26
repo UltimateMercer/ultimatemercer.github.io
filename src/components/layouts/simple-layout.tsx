@@ -26,9 +26,7 @@ const SimpleLayout = ({ doc, children }: any) => {
     <section id={article.current} className={cn("main-article")}>
       <div className="max-w-full h-auto mb-5">
         <div
-          className={cn(
-            "lg:max-w-[712px] md:max-w-full block mx-auto md:px-0 px-4"
-          )}
+          className={cn("lg:max-w-[770px] md:max-w-full block mx-auto px-4")}
         >
           <h5 className={cn("font-semibold tracking-wide")}>
             <FormatFullTimeStamp date={date} locale={"pt-br"} />

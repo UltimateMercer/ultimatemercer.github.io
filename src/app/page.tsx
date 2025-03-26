@@ -18,7 +18,6 @@ import { TypingAnimation } from "@/components/magicui/typing-animation";
 
 export default async function Home() {
   const docs = await getDocuments();
-  console.log(docs);
 
   const experiences = getExperiences;
   const educations = getAcademics;

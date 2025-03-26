@@ -34,7 +34,7 @@ No fim, o nome reflete bem minha abordagem de sempre explorar novos caminhos e c
 
 Minha atuação profissional se encaixa no conceito de **Full Stack Designer**, que basicamente significa:
 
-- **Criar interfaces funcionais e intuitivas** (UI/UX).
+- **Criar interfaces funcionais** (UI/UX).
 - **Transformar essas ideias em código real** no desenvolvimento front-end.
 
 Essa mistura me permite ter uma visão mais completa dos projetos, garantindo que o design e a implementação façam sentido juntos.

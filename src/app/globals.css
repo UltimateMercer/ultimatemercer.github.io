@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -161,7 +162,7 @@
 .main-article {
   .article-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 10px 700px 10px 1fr 1fr;
+    grid-template-columns: 1fr 1fr 10px 740px 10px 1fr 1fr;
     font-size: 18px;
     padding-bottom: 1.5rem;
   }
