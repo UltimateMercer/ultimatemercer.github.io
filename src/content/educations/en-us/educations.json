@@ -1,0 +1,20 @@
+[
+  {
+    "institute": "IFSul - Federal Institute of Southern Rio Grande do Sul - Pelotas/RS",
+    "course": "Technologist in Internet Systems",
+    "status": "Graduated",
+    "image": "https://i.imgur.com/aOYbbmu.jpg"
+  },
+  {
+    "institute": "TopWay - English School - Pelotas/RS",
+    "course": "English - Advanced",
+    "status": "Completed in 2018",
+    "image": "https://i.imgur.com/qrjFnG0.jpg"
+  },
+  {
+    "institute": "UFPel - Federal University of Pelotas - Pelotas/RS",
+    "course": "Bachelor in Digital Design",
+    "status": "8th Semester - ongoing",
+    "image": "https://i.imgur.com/a7Ul7uG.jpg"
+  }
+]

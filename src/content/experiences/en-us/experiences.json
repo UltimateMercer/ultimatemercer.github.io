@@ -1,0 +1,119 @@
+[
+  {
+    "company": "Adopt Liveview",
+    "role": "Front-end Developer",
+    "description": "Development of platform and components for a course focused on teaching Elixir Liveview.",
+    "start": "2024-04-01 00:00",
+    "end": "",
+    "image": "",
+    "tags": ["Elixir", "Phoenix", "Liveview", "Heex", "TailwindCSS"]
+  },
+  {
+    "company": "Blklight",
+    "role": "Fullstack Developer",
+    "description": "",
+    "start": "2019-02-01 00:00",
+    "end": "",
+    "image": "",
+    "tags": [
+      "React",
+      "Next.JS",
+      "Vue.JS",
+      "Nuxt",
+      "Node.js",
+      "Javascript",
+      "Typescript",
+      "Express",
+      "NestJS",
+      "SCSS",
+      "GitHub",
+      "Git"
+    ]
+  },
+  {
+    "company": "blueshift.cc",
+    "role": "Front-end Developer",
+    "description": "Maintenance of a hub for startups; Creation of landing pages;",
+    "start": "2021-01-01 00:00",
+    "end": "2022-12-31 23:59",
+    "image": "https://i.imgur.com/fxDITOw.jpg",
+    "tags": [
+      "Vue.JS (V. 2)",
+      "Nuxt",
+      "Node.js",
+      "Javascript",
+      "jQuery",
+      "C#",
+      "GitHub",
+      "Git"
+    ]
+  },
+  {
+    "company": "bohr.io",
+    "role": "Front-end Developer",
+    "description": "Development of a landing page for newsletter subscription; Development of components for a web deploy tool; Creation of project templates.",
+    "start": "2022-01-01 00:00",
+    "end": "2022-12-31 23:59",
+    "image": "https://i.imgur.com/fxDITOw.jpg",
+    "tags": [
+      "Vue.JS (V. 2/ V. 3)",
+      "React",
+      "Node.js",
+      "Javascript",
+      "GitHub",
+      "Git"
+    ]
+  },
+  {
+    "company": "Compass UOL",
+    "role": "Intern/ Scholarship - Program of scholarships - Machine Learning with AWS",
+    "description": "Internship with focus on continuous learning and using AWS tools for Machine Learning.",
+    "start": "2024-07-15 00:00",
+    "end": "2024-12-11 23:59",
+    "image": "",
+    "tags": [
+      "Amazon Web Services (AWS)",
+      "Python",
+      "Serverless",
+      "JSON",
+      "Javascript"
+    ]
+  },
+  {
+    "company": "Mentorise",
+    "role": "Front-end Developer",
+    "description": "Development of components for a dashboard; Creation of design system for the platform;",
+    "start": "2022-01-01 00:00",
+    "end": "2022-07-31 23:59",
+    "image": "",
+    "tags": ["React", "Node.js", "Javascript", "SCSS", "GitHub", "Git"]
+  },
+  {
+    "company": "Mentorise",
+    "role": "Fullstack Developer",
+    "description": "Development and refactoring of components and interface elements of the platform; Development and refactoring of routes and services of the back-end of the platform.",
+    "start": "2023-07-01 00:00",
+    "end": "2023-12-31 23:59",
+    "image": "",
+    "tags": [
+      "React",
+      "Node.js",
+      "Javascript",
+      "CSS",
+      "Express",
+      "Sequelize",
+      "SQL",
+      "GitHub",
+      "Git"
+    ]
+  },
+  {
+    "company": "QuestõesPRO",
+    "role": "Front-end Developer",
+    "description": "",
+    "start": "2020-06-01 00:00",
+    "end": "2020-09-30 23:59",
+    "image": "",
+    "tags": ["Vue.JS (V. 2)", "Nuxt", "Node.js", "Javascript", "GitHub", "Git"]
+  }
+]
