@@ -1,7 +1,7 @@
 "use client";
 import { GlobeIcon } from "@phosphor-icons/react";
 import Image from "next/image";
-
+import RotatingText from "@/components/RotatingText/RotatingText";
 export const Presentation = () => {
   return (
     <section className="w-full relative overflow-hidden bg-[#252525] dark:bg-custom-brown">
@@ -21,7 +21,19 @@ export const Presentation = () => {
           alt="logo"
         />
         <div className="text-[#121212] dark:text-custom-brown-text">
-          <h1 className="text-3xl font-bold tracking-tight">Ultimate Mercer</h1>
+          <RotatingText
+            texts={["Ultimate Mercer", "Julian Silva da Cunha"]}
+            mainClassName="text-4xl font-bold tracking-tight overflow-hidden"
+            staggerFrom={"first"}
+            initial={{ y: "100%" }}
+            animate={{ y: 0 }}
+            exit={{ y: "-120%" }}
+            staggerDuration={0.075}
+            splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+            transition={{ type: "spring", damping: 30, stiffness: 400 }}
+            rotationInterval={5000}
+          />
+          {/* <h1 className="text-3xl font-bold tracking-tight">Ultimate Mercer</h1> */}
           <p className="text-lg">
             Desenvolvedor Front-End / Designer em formação
           </p>
