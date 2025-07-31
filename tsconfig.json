@@ -13,7 +13,6 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": ".",
     "plugins": [
       {
         "name": "next"
@@ -21,7 +20,7 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "contentlayer/generated": ["./.contentlayer/generated"]
+      "@/.source": ["/.source"]
     }
   },
   "include": [
@@ -29,8 +28,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    ".contentlayer/generated",
-    "contentlayer.config.js"
+    "next.config.mjs"
   ],
   "exclude": ["node_modules"]
 }
