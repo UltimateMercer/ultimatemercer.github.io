@@ -7,6 +7,13 @@ type LayoutProps = {
   children: ReactNode;
 };
 
+const availableLayouts = [
+  "fullpage-layout",
+  "basic-layout",
+  "parallax-layout",
+  "portrait-layout",
+];
+
 export const MdxWithLayout = ({
   data,
   children,
@@ -15,10 +22,12 @@ export const MdxWithLayout = ({
   children: any;
 }) => {
   console.log(data.layout);
+
+  const selectedLayout = availableLayouts.find((l) => l === data.layout);
   const Layout = dynamic<LayoutProps>(() =>
-    import(`@/components/article-layouts/${"fullpage-layout"}`).then(
-      (mod) => mod.default
-    )
+    import(
+      `@/components/article-layouts/${selectedLayout || "basic-layout"}`
+    ).then((mod) => mod.default)
   );
 
   return <Layout data={data}>{children}</Layout>;

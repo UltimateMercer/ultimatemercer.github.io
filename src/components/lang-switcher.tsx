@@ -3,7 +3,6 @@
 import * as React from "react";
 import { useLanguageStore } from "@/store/useLanguageStore";
 
-import { Button } from "./ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -28,8 +27,6 @@ export function LangSwitcher() {
   const currentParams = useParams();
   const pathname = usePathname();
   const router = useRouter();
-  console.log("URL Params:", currentParams);
-  console.log("URL Pathname:", pathname);
 
   // if (currentParams.lang && language !== currentParams.lang) {
   //   return redirect(`/${language}/${currentParams.slug}`);

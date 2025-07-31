@@ -25,23 +25,13 @@ export default async function Projects() {
     url: p.url,
   }));
 
-  // console.log(JSON.stringify(projects.slice(0, 2), null, 2));
-
   return (
     <section className="dark:bg-custom-brown bg-[#252525] border-b border-[#121212] dark:border-custom-brown rounded-2xl">
       <SectionHero />
-      {/* <div className="flex items-center gap-8 px-8 py-10 rounded-2xl bg-custom-brown dark:bg-[#252525]">
-        <div className="text-[#121212] dark:text-custom-brown-text">
-          <h1 className="text-3xl font-bold tracking-tight">Meus projetos</h1>
-          <p className="text-lg">
-            Lista de meus projetos pessoais e profissionais
-          </p>
-        </div>
-      </div> */}
       <div className="w-full h-[42px] px-5 flex items-center z-[2]">
-        {/* <div className="text-custom-brown-text dark:text-[#121212]  font-medium flex-shrink-0">
-          Modos de visualização: em construção
-        </div> */}
+        <div className="text-custom-brown-text dark:text-[#121212]  font-medium flex-shrink-0">
+          Em construção...
+        </div>
       </div>
 
       <ListProjectCards projects={projects} />

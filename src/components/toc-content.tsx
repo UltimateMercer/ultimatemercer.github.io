@@ -41,7 +41,6 @@ export function TableOfContentsContent<T extends GenericItem>({
           const start = getNested(it, fields.startDate);
           const end = getNested(it, fields.endDate);
           const img = getNested(it, fields.image);
-          console.log(img);
           const tagArr = getNested(it, fields.tags) || [];
 
           return (

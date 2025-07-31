@@ -2,7 +2,6 @@ import { MenuSection } from "@/components/menu";
 import { Presentation } from "@/components/presentation";
 import Ticker from "@/components/ticker-component";
 import { allProjects } from "@/lib/source";
-import { projects } from "../../source.config";
 
 export default function Home() {
   const projectsRaw = allProjects.getPages();

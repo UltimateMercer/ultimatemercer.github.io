@@ -21,12 +21,7 @@ export default async function Page({
   const url = `/projects/${lang}/${slug}`;
   console.log("URL gerada:", url, typeof url);
 
-  const projects = allProjects.getPages();
-
-  // console.log(JSON.stringify(projects[0], null, 2));
-
-  const project = await allProjects.getPage([lang, slug]);
-  console.log(JSON.stringify(project, null, 2));
+  const project = (await allProjects.getPage([lang, slug])) as any;
 
   if (!project) notFound();
 
@@ -49,7 +44,6 @@ export default async function Page({
     url: project.url,
   };
   const Mdx = project.data.body;
-  console.log(JSON.stringify(project.data, null, 2));
 
   return (
     <>

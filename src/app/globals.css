@@ -2,6 +2,7 @@
 @import "tw-animate-css";
 
 @plugin "@tailwindcss/typography";
+@config "../../tailwind.config.js";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -184,7 +185,7 @@
 
   .background-header {
     /* @apply sticky lg:top-[9px] top-0 w-full z-[2] h-10 flex justify-between items-center border-b border-black; */
-    @apply sticky lg:top-[9px] top-0 w-full z-[3] h-12 grid lg:grid-cols-[125px_3fr_1fr] md:grid-cols-[2fr_1fr] grid-cols-[2fr_1fr] justify-between items-center border-b border-[#121212] dark:border-custom-brown;
+    @apply sticky lg:top-[9px] top-0 w-full z-[3] h-12 grid lg:grid-cols-[125px_3fr_1fr] md:grid-cols-[125px_3fr_1fr] grid-cols-[125px_3fr_1fr] justify-between items-center border-b border-[#121212] dark:border-custom-brown;
     @apply bg-[#cfc0a0] dark:bg-[#252525];
   }
 
