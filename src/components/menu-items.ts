@@ -10,7 +10,11 @@ import {
 } from "@phosphor-icons/react";
 import { menuTranslations } from "@/utils/menu-translations";
 
-export const useMenu = () => {
+export const useMenu = ({
+  projectCount = "",
+}: {
+  projectCount: string | number;
+}) => {
   const { language } = useLanguageStore() as LanguageStore;
 
   // const t = menuTranslations[language];
@@ -42,7 +46,7 @@ export const useMenu = () => {
       title: t.projects.title,
       description: t.projects.description,
       icon: FoldersIcon,
-      count: "3",
+      count: projectCount,
       url: "/projects",
     },
     {

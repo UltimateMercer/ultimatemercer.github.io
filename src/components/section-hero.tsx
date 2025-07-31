@@ -5,6 +5,16 @@ import { useLanguageStore } from "@/store/useLanguageStore";
 import type { LanguageStore } from "@/utils/interfaces";
 
 const sectionData = {
+  "/educations": {
+    "pt-br": {
+      title: "Educação",
+      description: "Lista de minhas formações acadêmicas",
+    },
+    "en-us": {
+      title: "Education",
+      description: "List of my educations",
+    },
+  },
   "/experiences": {
     "pt-br": {
       title: "Experiências",

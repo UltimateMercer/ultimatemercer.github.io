@@ -11,7 +11,7 @@ export interface GenericItem {
 }
 
 export interface FieldConfig {
-  title: string;
+  title?: string;
   subtitle?: string;
   description?: string;
   startDate?: string;
@@ -31,6 +31,7 @@ export interface TableOfContentsProps<T extends GenericItem> {
   formatDate?: (date: string) => string;
   generateId?: (item: T) => string;
   renderCustomContent?: (item: T) => React.ReactNode;
+  type?: string;
 }
 
 /* ---------- helpers ---------------------------------------------------- */
@@ -65,6 +66,7 @@ export default function GenericTableOfContents<T extends GenericItem>({
   formatDate = defaultFormatDate,
   generateId,
   renderCustomContent,
+  type = "",
 }: TableOfContentsProps<T>) {
   /* Fallbacks so data.map never throws */
   const safeData = Array.isArray(data) ? data : [];
@@ -142,6 +144,7 @@ export default function GenericTableOfContents<T extends GenericItem>({
         getItemId={getItemId}
         getNested={getNested}
         renderCustomContent={renderCustomContent}
+        type={type}
       />
     </div>
   );
