@@ -14,5 +14,7 @@ export type Project = {
   authors?: any[];
   gallery?: string[] | null;
   slug?: URL | string;
+  url?: URL | string;
   body?: any;
+  lang: "en-us" | "pt-br" | string;
 };

@@ -1,11 +1,11 @@
 import {
-  BehanceLogo,
+  BehanceLogoIcon,
   Browser,
-  Envelope,
-  GithubLogo,
-  InstagramLogo,
-  LinkedinLogo,
-  MediumLogo,
+  EnvelopeIcon,
+  GithubLogoIcon,
+  InstagramLogoIcon,
+  LinkedinLogoIcon,
+  MediumLogoIcon,
 } from "@phosphor-icons/react";
 
 const links = {
@@ -28,37 +28,37 @@ export const socials = [
   {
     name: "Email",
     link: links.email,
-    icon: Envelope,
+    icon: EnvelopeIcon,
     printable: true,
   },
   {
     name: "Github",
     link: links.github,
-    icon: GithubLogo,
+    icon: GithubLogoIcon,
     printable: true,
   },
   {
     name: "Linkedin",
     link: links.linkedin,
-    icon: LinkedinLogo,
+    icon: LinkedinLogoIcon,
     printable: true,
   },
   {
     name: "Behance",
     link: links.behance,
-    icon: BehanceLogo,
+    icon: BehanceLogoIcon,
     printable: false,
   },
   {
     name: "Medium",
     link: links.medium,
-    icon: MediumLogo,
+    icon: MediumLogoIcon,
     printable: false,
   },
   {
     name: "Instagram",
     link: links.instagram,
-    icon: InstagramLogo,
+    icon: InstagramLogoIcon,
     printable: false,
   },
 ];
