@@ -20,6 +20,7 @@ export default function Ticker() {
                   // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
                   key={social.link + index}
                   href={social.link}
+                  target="_blank"
                   className="text-custom-brown-text dark:text-[#121212] flex items-center rounded-xl h-10 ticker-item px-12 mr-8"
                 >
                   <social.icon className="!size-6 mr-2" />

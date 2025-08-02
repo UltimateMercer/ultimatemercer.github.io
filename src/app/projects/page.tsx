@@ -2,6 +2,12 @@ import { ListProjectCards } from "@/components/list-project-cards";
 import { SectionHero } from "@/components/section-hero";
 import { allProjects } from "@/lib/source";
 import { Section } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects",
+  description: "Projetos pessoais",
+};
 
 export default async function Projects() {
   const projectsRaw = allProjects.getPages();

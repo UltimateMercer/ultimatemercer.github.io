@@ -4,6 +4,10 @@ import type { Project } from "@/utils/types";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { useLanguageStore } from "@/store/useLanguageStore";
+import type { LanguageStore } from "@/utils/interfaces";
+import { Badge } from "./ui/badge";
+import { FormatDate } from "./date-format";
 // https://i.imgur.com/ps1THsK.jpg
 
 interface ProjectCardProps {
@@ -11,6 +15,8 @@ interface ProjectCardProps {
 }
 
 export const ProjectCard = ({ project }: ProjectCardProps) => {
+  const { language } = useLanguageStore() as LanguageStore;
+
   const fallbackImage = "/images/blklight-thumb.jpg";
 
   const cardImage = (data: any) => {
@@ -55,22 +61,26 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
       </div>
 
       <div className="absolute top-0 bottom-0 left-0 right-0 p-8 bg-gradient-to-b from-transparent from-35% to-black/90 rounded-2xl">
-        <div className="flex flex-col justify-end h-full">
-          <h4 className="text-3xl font-bold mb-2.5">{project.title}</h4>
-          {project.description && (
-            <p className="font-medium text-sm tracking-wide">
-              {project.description}
-            </p>
-          )}
-          {project.url && (
-            <p className="mt-4 text-sm font-medium tracking-widest">
-              {project.url}
-            </p>
-          )}
+        <div className="flex flex-col justify-between h-full">
+          <Badge className="py-1 font-semibold bg-custom-brown dark:bg-[#252525] text-[#121212] dark:text-custom-brown-text capitalize">
+            {FormatDate({ date: project.date, locale: language })}
+          </Badge>
+          <div className="flex flex-col justify-between ">
+            <h4 className="text-3xl font-bold mb-2.5">{project.title}</h4>
+            {project.description && (
+              <p className="font-medium text-sm tracking-wide">
+                {project.description}
+              </p>
+            )}
 
-          <Button variant="outline" asChild>
-            <Link href={project.url}>View Project</Link>
-          </Button>
+            <div className="flex justify-end">
+              <Button variant="outline" className="bg-transparent" asChild>
+                <Link href={project.url ? project.url : "#"}>
+                  {language === "pt-br" ? "Ver Projeto" : "View Project"}
+                </Link>
+              </Button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

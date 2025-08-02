@@ -2,7 +2,10 @@
 import { GlobeIcon } from "@phosphor-icons/react";
 import Image from "next/image";
 import RotatingText from "@/components/RotatingText/RotatingText";
+import { useLanguageStore } from "@/store/useLanguageStore";
+import type { LanguageStore } from "@/utils/interfaces";
 export const Presentation = () => {
+  const { language } = useLanguageStore() as LanguageStore;
   return (
     <section className="w-full relative overflow-hidden bg-[#252525] dark:bg-custom-brown">
       <div className="flex items-center gap-8 px-8 py-10 rounded-2xl bg-custom-brown dark:bg-[#252525]">
@@ -35,7 +38,9 @@ export const Presentation = () => {
           />
           {/* <h1 className="text-3xl font-bold tracking-tight">Ultimate Mercer</h1> */}
           <p className="text-lg">
-            Desenvolvedor Front-End / Designer em formação
+            {language === "pt-br"
+              ? "Desenvolvedor Front-End / Designer em formação"
+              : "Frontend Developer / Designer in training"}
           </p>
           <div className="flex items-center text-base gap-1">
             <GlobeIcon size={24} />
