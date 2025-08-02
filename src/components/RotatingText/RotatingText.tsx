@@ -13,7 +13,6 @@ import {
   Transition,
   type VariantLabels,
   type Target,
-  type AnimationControls,
   type TargetAndTransition,
 } from "framer-motion";
 
@@ -36,7 +35,7 @@ export interface RotatingTextProps
   texts: string[];
   transition?: Transition;
   initial?: boolean | Target | VariantLabels;
-  animate?: boolean | VariantLabels | AnimationControls | TargetAndTransition;
+  animate?: boolean | VariantLabels | TargetAndTransition;
   exit?: Target | VariantLabels;
   animatePresenceMode?: "sync" | "wait";
   animatePresenceInitial?: boolean;
@@ -89,6 +88,7 @@ const RotatingText = forwardRef<RotatingTextRef, RotatingTextProps>(
       return Array.from(text);
     };
 
+    // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
     const elements = useMemo(() => {
       const currentText: string = texts[currentTextIndex];
       if (splitBy === "characters") {
