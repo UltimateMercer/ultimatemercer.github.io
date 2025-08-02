@@ -11,7 +11,7 @@ export const menuTranslations = {
       description: "A collection of my professional and personal experiences.",
     },
     academics: {
-      title: "Academics",
+      title: "Education",
       description: "Academic history and certifications.",
     },
     projects: {

@@ -35,9 +35,9 @@ export default async function Projects() {
     <section className="dark:bg-custom-brown bg-[#252525] border-b border-[#121212] dark:border-custom-brown rounded-2xl">
       <SectionHero />
       <div className="w-full h-[42px] px-5 flex items-center z-[2]">
-        <div className="text-custom-brown-text dark:text-[#121212]  font-medium flex-shrink-0">
+        {/* <div className="text-custom-brown-text dark:text-[#121212]  font-medium flex-shrink-0">
           Em construção...
-        </div>
+        </div> */}
       </div>
 
       <ListProjectCards projects={projects} />

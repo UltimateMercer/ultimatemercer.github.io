@@ -20,7 +20,7 @@ const BasicLayout = ({ data, children }: any) => {
       )}
     >
       <div className="max-w-full h-auto ">
-        <div className="lg:max-w-[712px] md:max-w-full block mx-auto md:px-0 px-4">
+        <div className="lg:max-w-[712px] md:max-w-full block mx-auto md:px-0 px-4 text-[#121212] dark:text-custom-brown-text">
           <h5 className={cn("font-semibold tracking-wide")}>
             <FormatFullTimeStamp date={date} locale={language} />
           </h5>

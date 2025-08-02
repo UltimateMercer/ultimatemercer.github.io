@@ -2,6 +2,7 @@
 import { GlobeIcon } from "@phosphor-icons/react";
 import Image from "next/image";
 import RotatingText from "@/components/RotatingText/RotatingText";
+import { MorphingText } from "@/components/magicui/morphing-text";
 import { useLanguageStore } from "@/store/useLanguageStore";
 import type { LanguageStore } from "@/utils/interfaces";
 export const Presentation = () => {
@@ -23,8 +24,14 @@ export const Presentation = () => {
           height={150}
           alt="logo"
         />
-        <div className="text-[#121212] dark:text-custom-brown-text">
-          <RotatingText
+        <div className="text-[#121212] dark:text-custom-brown-text flex flex-col gap-0.5 flex-1">
+          <div className="min-h-[36px]">
+            {" "}
+            <MorphingText
+              texts={["Julian Silva da Cunha", "Ultimate Mercer"]}
+            />
+          </div>
+          {/* <RotatingText
             texts={["Ultimate Mercer", "Julian Silva da Cunha"]}
             mainClassName="text-4xl font-bold tracking-tight overflow-hidden"
             staggerFrom={"first"}
@@ -35,16 +42,19 @@ export const Presentation = () => {
             splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
             transition={{ type: "spring", damping: 30, stiffness: 400 }}
             rotationInterval={5000}
-          />
+          /> */}
+
           {/* <h1 className="text-3xl font-bold tracking-tight">Ultimate Mercer</h1> */}
-          <p className="text-lg">
-            {language === "pt-br"
-              ? "Desenvolvedor Front-End / Designer em formação"
-              : "Frontend Developer / Designer in training"}
-          </p>
-          <div className="flex items-center text-base gap-1">
-            <GlobeIcon size={24} />
-            Pelotas, Brasil
+          <div className="">
+            <p className="text-lg">
+              {language === "pt-br"
+                ? "Desenvolvedor Front-End / Designer em formação"
+                : "Frontend Developer / Designer in training"}
+            </p>
+            <div className="flex items-center text-base gap-1">
+              <GlobeIcon size={24} />
+              Pelotas, Brasil
+            </div>
           </div>
         </div>
       </div>

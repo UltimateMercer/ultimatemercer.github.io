@@ -40,7 +40,7 @@ export const useMenu = ({
       description: t.academics.description,
       icon: GraduationCapIcon,
       count: "3",
-      url: "#",
+      url: "/educations",
     },
     {
       title: t.projects.title,
@@ -53,7 +53,7 @@ export const useMenu = ({
       title: t.website.title,
       description: t.website.description,
       icon: ToolboxIcon,
-      count: "3",
+      count: "",
       url: "#",
     },
     {

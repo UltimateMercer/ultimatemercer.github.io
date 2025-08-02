@@ -22,12 +22,32 @@ module.exports = {
           css: {
             '--tw-prose-invert-bullets': 'var(--color-custom-brown-text)',
             color: 'var(--color-custom-brown-text)',
+            // 'h1, h2, h3, h4, h5, h6': {
+            //   color: 'var(--color-custom-brown-text)',
+            // },
+            h1: {
+              color: 'var(--color-custom-brown-text)',
+            },
+            h2: {
+              color: 'var(--color-custom-brown-text)',
+            },
           }
         },
         invert: {
           css: {
             '--tw-prose-invert-bullets': 'var(--color-custom-brown-text)',
+            '--tw-prose-links': 'var(--color-custom-brown-text)',
+            '--tw-prose-bold': 'var(--color-custom-brown-text)',
             color: 'var(--color-custom-brown-text)',
+            // 'h1, h2, h3, h4, h5, h6': {
+            //   color: 'var(--color-custom-brown-text)',
+            // },
+            h1: {
+              color: 'var(--color-custom-brown-text)',
+            },
+            h2: {
+              color: 'var(--color-custom-brown-text)',
+            },
           }
         }
       }

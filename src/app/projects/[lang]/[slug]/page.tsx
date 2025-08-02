@@ -10,6 +10,67 @@ type Props = {
   params: { slug: string; lang: "pt-br" | "en-us" };
 };
 
+export async function generateStaticParams() {
+  const projectsRaw = await allProjects.getPages();
+
+  return projectsRaw.map((p: any) => ({
+    lang: p.data.lang,
+    url: p.url,
+  }));
+}
+
+export async function generateMetadata(
+  { params }: Props,
+  parent: any
+): Promise<any> {
+  const lang = await params.lang;
+  const slug = await params.slug;
+
+  const project = (await allProjects.getPage([lang, slug])) as any;
+
+  const frontmatter = {
+    title: project.data.title,
+    description: project.data.description,
+    imageHeader: project.data.imageHeader,
+    cover: project.data.cover,
+    date: project.data.date,
+    modifiedDate: project.data.modifiedDate,
+    channel: project.data.channel,
+    category: project.data.category,
+    tags: project.data.tags,
+    layout: project.data.layout,
+    filter: project.data.filter,
+    draft: project.data.draft,
+    authors: project.data.authors,
+    gallery: project.data.gallery,
+    lang: project.data.lang,
+    url: project.url,
+  };
+
+  const image = frontmatter.imageHeader
+    ? frontmatter.imageHeader
+    : frontmatter.cover
+    ? frontmatter.cover
+    : "/images/ultimate-mercer-base.jpg";
+
+  return {
+    title: frontmatter?.title,
+    authors: [{ name: "Ultimate Mercer" }, { name: "Julian Silva da Cunha" }],
+    description: frontmatter?.description,
+    openGraph: {
+      title: frontmatter?.title,
+      description: frontmatter?.description,
+      images: image,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: frontmatter?.title,
+      description: frontmatter?.description,
+      images: image,
+    },
+  };
+}
+
 export default async function Page({
   params,
 }: {
