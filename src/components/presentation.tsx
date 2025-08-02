@@ -44,7 +44,6 @@ export const Presentation = () => {
             rotationInterval={5000}
           /> */}
 
-          {/* <h1 className="text-3xl font-bold tracking-tight">Ultimate Mercer</h1> */}
           <div className="">
             <p className="text-lg">
               {language === "pt-br"
