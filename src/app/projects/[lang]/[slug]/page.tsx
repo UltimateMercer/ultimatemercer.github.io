@@ -74,10 +74,9 @@ export async function generateMetadata(
 export default async function Page({
   params,
 }: {
-  params: { slug: string; lang: "pt-br" | "en-us" };
+  params: Promise<{ slug: string; lang: "en-us" | "pt-br" }>;
 }) {
-  const lang = await params.lang;
-  const slug = await params.slug;
+  const { slug, lang } = await params;
 
   const url = `/projects/${lang}/${slug}`;
   console.log("URL gerada:", url, typeof url);
