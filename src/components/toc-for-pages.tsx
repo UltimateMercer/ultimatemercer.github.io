@@ -78,7 +78,11 @@ export default function GenericTableOfContents<T extends GenericItem>({
         ? generateId(item)
         : fields.id
         ? getNested(item, fields.id)
-        : defaultGenerateId(item, fields.title, fields.startDate ?? ""),
+        : defaultGenerateId(
+            item,
+            fields.title ?? "title",
+            fields.startDate ?? ""
+          ),
     [generateId, fields.id, fields.title, fields.startDate] // Dependencies for getItemId
   );
 

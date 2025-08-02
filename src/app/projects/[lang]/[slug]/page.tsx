@@ -1,7 +1,4 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
-import { InlineTOC } from "fumadocs-ui/components/inline-toc";
-import defaultMdxComponents from "fumadocs-ui/mdx";
 import { mdxCustomComponents } from "@/components/mdx-custom-components";
 import { allProjects } from "@/lib/source";
 import { MdxWithLayout } from "@/components/mdx-with-layout";
@@ -79,9 +76,6 @@ export default async function Page({
   params: Promise<{ slug: string; lang: "en-us" | "pt-br" }>;
 }) {
   const { slug, lang } = await params;
-
-  const url = `/projects/${lang}/${slug}`;
-  console.log("URL gerada:", url, typeof url);
 
   const project = (await allProjects.getPage([lang, slug])) as any;
 
