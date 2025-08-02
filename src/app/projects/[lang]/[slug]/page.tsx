@@ -7,7 +7,10 @@ import { allProjects } from "@/lib/source";
 import { MdxWithLayout } from "@/components/mdx-with-layout";
 
 type Props = {
-  params: { slug: string; lang: "pt-br" | "en-us" };
+  params: Promise<{
+    lang: "en-us" | "pt-br";
+    slug: string;
+  }>;
 };
 
 export async function generateStaticParams() {
@@ -15,7 +18,7 @@ export async function generateStaticParams() {
 
   return projectsRaw.map((p: any) => ({
     lang: p.data.lang,
-    url: p.url,
+    slug: p.url,
   }));
 }
 
@@ -23,8 +26,7 @@ export async function generateMetadata(
   { params }: Props,
   parent: any
 ): Promise<any> {
-  const lang = await params.lang;
-  const slug = await params.slug;
+  const { lang, slug } = await params;
 
   const project = (await allProjects.getPage([lang, slug])) as any;
 
