@@ -2,8 +2,11 @@
 import Link from "next/link";
 import { socials } from "@/utils/socials";
 import { Button } from "./ui/button";
+import { useLanguageStore } from "@/store/useLanguageStore";
+import type { LanguageStore } from "@/utils/interfaces";
 
 export const Footer = () => {
+  const { language } = useLanguageStore() as LanguageStore;
   return (
     <footer className="max-w-full pt-8 px-6 pb-12 print:hidden rounded-t-2xl bg-custom-brown dark:bg-[#252525]">
       <div className="container mx-auto">
@@ -47,7 +50,10 @@ export const Footer = () => {
           </div>
 
           <p className="text-sm text-[#121212] dark:text-[#f7f7f7]">
-            © {new Date().getFullYear()} Made by Ultimate Mercer.
+            © {new Date().getFullYear()}
+            {language === "pt-br"
+              ? " Feito por Julian Silva da Cunha (a.k.a. Ultimate Mercer)"
+              : " Made by Julian Silva da Cunha (a.k.a. Ultimate Mercer)"}
           </p>
         </div>
       </div>

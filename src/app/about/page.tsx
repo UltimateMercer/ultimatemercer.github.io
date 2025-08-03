@@ -20,7 +20,11 @@ export default function About() {
           />
           <div className="flex flex-col">
             <h1 className="text-5xl leading-normal">
-              <strong> Oi! Eu sou o Julian Silva da Cunha</strong>
+              {language === "pt-br" ? (
+                <strong> Oi! Eu sou o Julian Silva da Cunha</strong>
+              ) : (
+                <strong> Hi! I'm Julian Silva da Cunha</strong>
+              )}
             </h1>
           </div>
         </div>
