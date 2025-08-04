@@ -5,6 +5,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { BaseLayout } from "@/components/base-layout";
 import { FiltersDefs } from "@/components/filters-defs";
+import { Html } from "@/components/html";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <Html>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} bg-custom-brown dark:bg-[#252525] antialiased`}
       >
@@ -57,6 +58,6 @@ export default function RootLayout({
           <FiltersDefs />
         </ThemeProvider>
       </body>
-    </html>
+    </Html>
   );
 }
