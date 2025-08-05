@@ -12,11 +12,23 @@ type Props = {
 
 export async function generateStaticParams() {
   const projectsRaw = await allProjects.getPages();
+  console.log(
+    "GENERATE STATIC PARAMS",
+    projectsRaw.map((p: any) => ({
+      lang: p.data.lang,
+      slug: p.url,
+    }))
+  );
 
-  return projectsRaw.map((p: any) => ({
-    lang: p.data.lang,
-    slug: p.url,
-  }));
+  return projectsRaw.map((p: any) => {
+    // Extrai o slug usando regex - pega tudo após o último /
+    const slug = p.url.match(/\/([^\/]+)$/)?.[1] || "";
+    console.log("SLUG", slug);
+    return {
+      lang: p.data.lang,
+      slug: slug,
+    };
+  });
 }
 
 export async function generateMetadata(

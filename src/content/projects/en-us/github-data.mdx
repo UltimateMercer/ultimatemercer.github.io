@@ -6,9 +6,9 @@ cover: "/images/github-data-project-logo.jpg"
 date: 2024-03-20 16:30
 modifiedDate:
 channel: Devs
-category: Pessoal
+category: Personal
 tags:
-  - Projeto pessoal
+  - Personal project
 layout: landscape-layout
 filter: filter-grey-gold-black
 typography:
@@ -20,43 +20,67 @@ authors:
 gallery:
 ---
 
-Recentemente, ao ler alguns artigos, vi um projeto em que um desenvolvedor utilizava a API do GitHub para pesquisar por um nome de usuário e exibir informações básicas sobre ele. Inspirado por isso, decidi criar minha própria versão dessa aplicação, buscando incluir mais informações detalhadas sobre o usuário.
+Recently, while reading some articles, I came across a project where a developer used the GitHub API to search for a username and display basic information about the user. Inspired by this, I decided to create my own version of this application, aiming to include more detailed information about the user.
 
-Para desenvolver essa aplicação, utilizei algumas tecnologias atuais, entre elas:
+To develop this application, I used some current technologies, including:
 
-- **Svelte/SvelteKit**: já tinha testado o Svelte anteriormente e sempre tive interesse em criar um projeto completo com ele. Acho o Svelte similar ao Vue, meu primeiro framework e com o qual trabalhei profissionalmente.
-- **Octokit e GitHub API**: para acessar dados do GitHub, usei o Octokit, que facilita as buscas e permite um número maior de requisições com autenticação.
-- **@tanstack/query**: essencial para gerenciar melhor as buscas e o cache dos dados obtidos.
-- **Shadcn-svelte**: como gosto de usar o ShadcnUI com React/Next.js, optei por uma versão compatível com Svelte, com componentes fáceis de usar e estilizar com TailwindCSS.
-- **Vercel**: usei para deploy. Normalmente, crio sites estáticos com GitHub Pages, mas, neste caso, a aplicação requer buscas dinâmicas de dados, então a Vercel foi mais adequada.
-- **v0**: usei essa IA como base para criar o componente de exibição de contribuições e para configurar queries de contribuições e repositórios fixados em GraphQL. Como v0 é voltado para React, tive que ajustar o componente para que funcionasse corretamente em Svelte.
-- **Lucide Icons, Phosphor Icons e fonte Inter**: escolhi essas bibliotecas de ícones e a fonte Inter para a tipografia geral da aplicação.
+- **Svelte/SvelteKit**: I had already tested Svelte before and always had an interest in creating a complete project with it. I find Svelte similar to Vue, my first framework and the one I worked with professionally.
+- **Octokit and GitHub API**: to access GitHub data, I used Octokit, which makes searches easier and allows for a larger number of requests with authentication.
+- **@tanstack/query**: essential for better managing searches and caching data.
+- **Shadcn-svelte**: as I like to use ShadcnUI with React/Next.js, I opted for a version compatible with Svelte, with easy-to-use components and styling with TailwindCSS.
+- **Vercel**: I used it for deployment. Normally, I create static sites with GitHub Pages, but in this case, the application requires dynamic data searches, so Vercel was more suitable.
+- **v0**: I used this AI as a basis for creating the contribution display component and for configuring contribution and repository queries in GraphQL. As v0 is targeted at React, I had to adjust the component to work correctly in Svelte.
+- **Lucide Icons, Phosphor Icons and Inter font**: I chose these icon libraries and the Inter font for the overall typography of the application.
 
-A aplicação está disponível em [https://githubdata.ultimatemercer.com/](https://githubdata.ultimatemercer.com/?un=ultimatemercer).
+The application is available at [https://githubdata.ultimatemercer.com/](https://githubdata.ultimatemercer.com/?un=ultimatemercer).
 
-Você também pode acessá-la com um nome de usuário pré-definido, por exemplo: [https://githubdata.ultimatemercer.com/?un=ultimatemercer](https://githubdata.ultimatemercer.com/?un=ultimatemercer). Assim, ao carregar o site, ele já exibe os dados do usuário.
+You can also access it with a predefined username, for example: [https://githubdata.ultimatemercer.com/?un=ultimatemercer](https://githubdata.ultimatemercer.com/?un=ultimatemercer). This way, when loading the site, it already displays the user's data.
 
-Realizei um teste de desempenho com o Lighthouse para verificar performance, acessibilidade, boas práticas e SEO, e obtive resultados excelentes. Embora haja uma leve oscilação na performance, os resultados iniciais foram melhores do que eu esperava, dado que não foquei tanto em otimização de performance.
+I performed a performance test with Lighthouse to check performance, accessibility, best practices and SEO, and got excellent results. Although there is a slight oscillation in performance, the initial results were better than I expected, given that I didn't focus much on performance optimization.
 
-![Performance Lighthouse](/images/github-data-project-performance.jpg)
+<figure>
+  <img
+    src="/images/github-data-project-performance.jpg"
+    className="mx-auto block"
+    alt="Performance Lighthouse"
+  />
+</figure>
 
-### Algumas capturas de tela da aplicação:
+### Some screenshots of the application:
 
-![Captura 1](/images/github-data-project-1.jpg)
+<figure>
+  <img
+    src="/images/github-data-project-1.jpg"
+    className="mx-auto block"
+    alt="Screenshot 1"
+  />
+</figure>
 
-![Captura 2](/images/github-data-project-2.jpg)
+<figure>
+  <img
+    src="/images/github-data-project-2.jpg"
+    className="mx-auto block"
+    alt="Screenshot 2"
+  />
+</figure>
 
-![Captura 3](/images/github-data-project-3.jpg)
+<figure>
+  <img
+    src="/images/github-data-project-3.jpg"
+    className="mx-auto block"
+    alt="Screenshot 3"
+  />
+</figure>
 
-Desenvolver esse projeto foi uma experiência valiosa, tanto em termos de aprendizado quanto no uso de ferramentas. Um ponto de melhoria seria a fase de planejamento, já que precisei refatorar a estrutura para integrar o @tanstack/query.
+Developing this project was a valuable experience, both in terms of learning and using tools. One area for improvement would be the planning phase, as I had to refactor the structure to integrate @tanstack/query.
 
-### Próximos Passos
+### Next Steps
 
-Ainda quero melhorar alguns pontos no projeto (dei uma pausa no momento). Os principais pontos a trabalhar são:
+I still want to improve some points in the project (I took a break for now). The main points to work on are:
 
-- Adicionar testes unitários;
-- Aperfeiçoar o carregamento de dados com um nome de usuário pré-definido;
-- Ajustar alguns detalhes de design.
+- Add unit tests;
+- Improve data loading with a predefined username;
+- Adjust some design details.
 
-Atenciosamente,  
+Sincerely,  
 Julian Silva da Cunha

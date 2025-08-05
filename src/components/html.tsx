@@ -1,3 +1,4 @@
+"use client";
 import { useLanguageStore } from "@/store/useLanguageStore";
 import type { LanguageStore } from "@/utils/interfaces";
 
