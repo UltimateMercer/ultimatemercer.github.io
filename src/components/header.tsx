@@ -9,6 +9,7 @@ import { useRouter, useSelectedLayoutSegments } from "next/navigation";
 import { Button } from "./ui/button";
 import { useLanguageStore } from "@/store/useLanguageStore";
 import type { LanguageStore } from "@/utils/interfaces";
+import { AnimatedThemeToggler } from "./magicui/animated-theme-toggler";
 
 export const Header = () => {
   const { language } = useLanguageStore() as LanguageStore;
@@ -42,7 +43,7 @@ export const Header = () => {
         </div>
         <div className="flex justify-end">
           <LangSwitcher />
-          <ModeToggle />
+          <AnimatedThemeToggler />
         </div>
       </header>
       {/* <header></header> */}
