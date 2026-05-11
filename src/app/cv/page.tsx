@@ -1,4 +1,4 @@
-// import ResumeViewer from "@/components/resume-viewer";
+"use client";
 import dynamic from "next/dynamic";
 
 const ResumeViewer = dynamic(() => import("@/components/resume-viewer"), {
