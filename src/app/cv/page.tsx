@@ -1,4 +1,12 @@
-import ResumeViewer from "@/components/resume-viewer";
+// import ResumeViewer from "@/components/resume-viewer";
+import dynamic from "next/dynamic";
+
+const ResumeViewer = dynamic(() => import("@/components/resume-viewer"), {
+  ssr: false,
+  loading: () => (
+    <div className="p-10 text-center">Carregando currículo...</div>
+  ),
+});
 
 export default function CVPage() {
   return (
