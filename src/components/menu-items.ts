@@ -61,7 +61,7 @@ export const useMenu = ({
       description: t.cv.description,
       icon: FileTextIcon,
       count: "",
-      url: "#",
+      url: "/cv",
     },
   ];
 };
