@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 
+import PlausibleProvider from "next-plausible";
+
 import { ThemeProvider } from "@/components/theme-provider";
 import { BaseLayout } from "@/components/base-layout";
 import { FiltersDefs } from "@/components/filters-defs";
@@ -38,25 +40,27 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} bg-custom-brown dark:bg-[#252525] antialiased`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <BaseLayout>{children}</BaseLayout>
-          <div
-            id="padding"
-            className="lg:block hidden w-full h-full p-[8px] fixed z-[2] top-0 left-0 pointer-events-none"
+        <PlausibleProvider src="https://plausible.io/js/script.js">
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
           >
-            <div className="w-full h-full border border-[#121212] dark:border-custom-brown"></div>
-          </div>
-          <div
-            id="frame"
-            className="lg:block hidden w-full h-screen fixed top-0 right-0 z-[3] background-frame "
-          ></div>
-          <FiltersDefs />
-        </ThemeProvider>
+            <BaseLayout>{children}</BaseLayout>
+            <div
+              id="padding"
+              className="lg:block hidden w-full h-full p-[8px] fixed z-[2] top-0 left-0 pointer-events-none"
+            >
+              <div className="w-full h-full border border-[#121212] dark:border-custom-brown"></div>
+            </div>
+            <div
+              id="frame"
+              className="lg:block hidden w-full h-screen fixed top-0 right-0 z-[3] background-frame "
+            ></div>
+            <FiltersDefs />
+          </ThemeProvider>
+        </PlausibleProvider>
       </body>
     </Html>
   );
