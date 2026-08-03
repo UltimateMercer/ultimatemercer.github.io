@@ -40,7 +40,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} bg-custom-brown dark:bg-[#252525] antialiased`}
       >
-        <PlausibleProvider src="https://plausible.io/js/script.js">
+        <PlausibleProvider src="https://devsnorte-plausible.fly.dev/js/script.js">
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
